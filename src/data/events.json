@@ -1,0 +1,369 @@
+[
+  {
+    "id": "b99c81cb-9f00-4431-9b13-a459b770d876",
+    "number": 50,
+    "date": {
+      "date": "2023-02-22T00:00:00.000Z",
+      "short": "22.2.2023",
+      "long": "22. Februar 2023"
+    },
+    "url": null,
+    "guests": [
+      "JakoJako (Berghain Resident)",
+      "Robert Henke"
+    ],
+    "videos": [
+      {
+        "id": "d38d17cd-111f-48ba-b0a9-6fa50b77ca7b",
+        "artist": "JakoJako",
+        "title": "Amygdala",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "JakoJako"
+        ]
+      },
+      {
+        "id": "9046a7ca-dc93-4a68-a2b5-2a2abbda09ae",
+        "artist": "Robert Henke",
+        "title": "CBM 8032 AV (Trailer Barbican)",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Robert Henke"
+        ]
+      },
+      {
+        "id": "1dc6bf04-16d9-4fd5-b472-f5f11d1265f7",
+        "artist": "Depeche Mode",
+        "title": "Ghosts",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ]
+      },
+      {
+        "id": "03819016-91fe-4bc4-a436-45708c3458a1",
+        "artist": "LCD Soundsystem",
+        "title": "New Body Rhumba (from the Film White Noise)",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ]
+      },
+      {
+        "id": "243163e1-cf03-41df-9dfe-4fd33afef20d",
+        "artist": "The Prodigy",
+        "title": "No Good (Start the Dance)",
+        "year": 1994,
+        "rip": false,
+        "played": true,
+        "person": [
+          "JakoJako"
+        ]
+      },
+      {
+        "id": "a33313ca-836b-44b2-9c8e-c61d3f8510e3",
+        "artist": "The Art of Noise",
+        "title": "Paranoima",
+        "year": 1986,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Robert Henke"
+        ]
+      },
+      {
+        "id": "065a8a61-5a44-45b6-a7f2-53d79f74c9fe",
+        "artist": "Tony Marshall",
+        "title": "Ach, laß mich doch in deinem Wald der Oberförster sein",
+        "year": null,
+        "rip": true,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e829ac4c-b409-4c3e-93ff-ad7ca8379e0a",
+    "number": 49,
+    "date": {
+      "date": "2023-01-17T00:00:00.000Z",
+      "short": "17.1.2023",
+      "long": "17. Januar 2023"
+    },
+    "url": null,
+    "guests": [
+      "Klaus Lederer"
+    ],
+    "videos": [
+      {
+        "id": "a4e27aa6-7ca0-4945-b4bd-b3e7a28108e3",
+        "artist": "Anthony Hüseyin",
+        "title": "Project O: Gökdelenler",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Klaus Lederer"
+        ]
+      },
+      {
+        "id": "7dc1f60a-1974-43ca-9dc9-b83e177f0778",
+        "artist": "Vicky Leandros",
+        "title": "Ich liebe das Leben",
+        "year": 1975,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Klaus Lederer"
+        ]
+      },
+      {
+        "id": "5e884a50-dcb2-42a3-a824-52159b866486",
+        "artist": "Everything but The Girl",
+        "title": "Nothing to Lose",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ]
+      },
+      {
+        "id": "67ff29d1-e370-4618-b6d8-1859f9e46333",
+        "artist": "Orbital & Sleaford Mods",
+        "title": "Dirty Rat",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ]
+      },
+      {
+        "id": "f06be337-83ef-4fc7-bdc0-48bfcb4b86b3",
+        "artist": "RotFront",
+        "title": "Sovietblaster",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Klaus Lederer"
+        ]
+      },
+      {
+        "id": "5a1f1ab9-4706-4725-ba6a-50e80e2ad595",
+        "artist": "Wiegedood",
+        "title": "Nuages",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ]
+      },
+      {
+        "id": "a49f02fb-af7a-43b6-8a92-ba93dbc4bf7a",
+        "artist": "Jeff Beck feat. Rod Steward",
+        "title": "People Get Ready",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      }
+    ]
+  },
+  {
+    "id": "b530734a-b76f-4f5c-9101-9de380447f2d",
+    "number": 48,
+    "date": {
+      "date": "2022-12-14T00:00:00.000Z",
+      "short": "14.12.2022",
+      "long": "14. Dezember 2022"
+    },
+    "url": null,
+    "guests": [
+      "Joachim Hentschel (Süddeutsche Zeitung)",
+      "Vivian Perkovic (3sat Kulturzeit)",
+      "Jenni Zylka (radioeins)"
+    ],
+    "videos": []
+  },
+  {
+    "id": "5abd52b4-6b25-499f-8eef-4a79c5690671",
+    "number": 47,
+    "date": {
+      "date": "2022-11-15T00:00:00.000Z",
+      "short": "15.11.2022",
+      "long": "15. November 2022"
+    },
+    "url": null,
+    "guests": [
+      "Drangsal (Max Gruber)"
+    ],
+    "videos": []
+  },
+  {
+    "id": "ebe04bb4-d20f-44a7-a311-2ad6c736ebf3",
+    "number": 46,
+    "date": {
+      "date": "2022-10-11T00:00:00.000Z",
+      "short": "11.10.2022",
+      "long": "11. Oktober 2022"
+    },
+    "url": null,
+    "guests": [
+      "Laura Aha",
+      "Laura Ewert"
+    ],
+    "videos": []
+  },
+  {
+    "id": "7f546884-e452-4f9e-a96a-798ea41acaf9",
+    "number": 45,
+    "date": {
+      "date": "2022-09-27T00:00:00.000Z",
+      "short": "27.9.2022",
+      "long": "27. September 2022"
+    },
+    "url": null,
+    "guests": [
+      "Eric Pfeil (Autor und Italo-Pop-Experte)"
+    ],
+    "videos": []
+  },
+  {
+    "id": "e0ab2274-11e5-4d16-88b6-3137ce14597f",
+    "number": 44,
+    "date": {
+      "date": "2022-06-21T00:00:00.000Z",
+      "short": "21.6.2022",
+      "long": "21. Juni 2022"
+    },
+    "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-winson-und-ueli-haefliger/6177/",
+    "guests": [
+      "Winson und Ueli Häfliger (Goldstückli Podcast Ex-Flux FM)"
+    ],
+    "videos": []
+  },
+  {
+    "id": "f9f40a4c-5f57-4d65-b788-a0e0a1112650",
+    "number": 43,
+    "date": {
+      "date": "2022-05-17T00:00:00.000Z",
+      "short": "17.5.2022",
+      "long": "17. Mai 2022"
+    },
+    "url": null,
+    "guests": [],
+    "videos": []
+  },
+  {
+    "id": "dae15d0a-5d33-483c-924c-c745df124b85",
+    "number": 42,
+    "date": {
+      "date": "2022-04-27T00:00:00.000Z",
+      "short": "27.4.2022",
+      "long": "27. April 2022"
+    },
+    "url": null,
+    "guests": [
+      "Hendrik Otremba",
+      "Tara Nome Doyle"
+    ],
+    "videos": []
+  },
+  {
+    "id": "ba81e11b-8229-431f-a755-00dfedf35979",
+    "number": 41,
+    "date": {
+      "date": "2022-03-01T00:00:00.000Z",
+      "short": "1.3.2022",
+      "long": "1. März 2022"
+    },
+    "url": null,
+    "guests": [
+      "Marion Brasch (Autorin)",
+      "Hendrik Bolz (Autor und Rapper / Zugezogen Maskulin)"
+    ],
+    "videos": []
+  },
+  {
+    "id": "45f7a6ac-b7f2-44e6-a017-312e309a33d7",
+    "number": 40,
+    "date": {
+      "date": "2022-01-11T00:00:00.000Z",
+      "short": "11.1.2022",
+      "long": "11. Januar 2022"
+    },
+    "url": null,
+    "guests": [
+      "Albertine Sarges (Musikerin)",
+      "Pamela Schobeß (Gretchen Club)"
+    ],
+    "videos": []
+  },
+  {
+    "id": "5d9761fa-0b8e-4b8d-994a-94e8763e6ef5",
+    "number": 39,
+    "date": {
+      "date": "2021-12-21T00:00:00.000Z",
+      "short": "21.12.2021",
+      "long": "21. Dezember 2021"
+    },
+    "url": null,
+    "guests": [],
+    "videos": []
+  },
+  {
+    "id": "340f89b2-bd2a-4d7d-a717-5fd5a3c1feef",
+    "number": null,
+    "date": {
+      "date": "2021-10-19T00:00:00.000Z",
+      "short": "19.10.2021",
+      "long": "19. Oktober 2021"
+    },
+    "url": null,
+    "guests": [
+      "Sebastian Krumbiegel"
+    ],
+    "videos": []
+  },
+  {
+    "id": "f73a7550-63ce-4bde-9da0-aa0731303e85",
+    "number": null,
+    "date": {
+      "date": "2020-10-25T00:00:00.000Z",
+      "short": "25.10.2020",
+      "long": "25. Oktober 2020"
+    },
+    "url": "https://www.deutschestheater.de/programm/spielplan/popsalon_gayle_tufts/4863/",
+    "guests": [
+      "Gayle Tufts"
+    ],
+    "videos": []
+  },
+  {
+    "id": "6e6bc23f-c62e-44f5-8ebb-b72ab00ff301",
+    "number": null,
+    "date": {
+      "date": "2020-04-14T00:00:00.000Z",
+      "short": "14.4.2020",
+      "long": "14. April 2020"
+    },
+    "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-monica-bonvicini/4646/",
+    "guests": [
+      "Monica Bonvicini"
+    ],
+    "videos": []
+  }
+]

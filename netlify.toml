@@ -1,0 +1,6 @@
+[build]
+  command = "make production"
+  publish = "build"
+
+[functions]
+  node_bundler = "esbuild"
