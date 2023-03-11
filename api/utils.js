@@ -8,18 +8,6 @@ const DATABASE_EVENTS = process.env.VITE_NOTION_DATABASE_EVENTS;
 const DATABASE_VIDEOS = process.env.VITE_NOTION_DATABASE_VIDEOS;
 const bearer = process.env.VITE_NOTION_SECRET;
 
-function cleanString(str) {
-  if (typeof str === 'undefined') {
-    return undefined;
-  }
-  const val = str
-    .replace(/[\u0000-\u001F\u007F-\u009F]/g, '')
-    .replace(/[\u00AD\u002D\u2011]+/g, '')
-    .replace(/\s+/g, ' ')
-    .trim();
-  return val;
-}
-
 async function fetchContent(id) {
   const result = await fetch(`https://api.notion.com/v1/databases/${id}/query`, {
     method: 'POST',
@@ -47,11 +35,6 @@ const dateFormatterLong = new Intl.DateTimeFormat('de-DE', {
   month: 'long',
   day: 'numeric',
 }).format;
-
-export function findRelations(arr, posts) {
-  const relations = arr.map((id) => posts.find(({ notionID }) => notionID === id)).filter(Boolean);
-  return relations.map(({ id, title, language }) => ({ id, title, language }));
-}
 
 export async function getEvents() {
   const response = await fetchContent(DATABASE_EVENTS);
@@ -96,16 +79,6 @@ export async function formatEvents(arr) {
   }
 
   events = events.sort((a, b) => b.date.date - a.date.date);
-
-  // posts = posts.map((post) => {
-  //   const obj = {
-  //     ...post,
-  //     // relations: findRelations(post.relations, posts),
-  //     // related: findRelatedPosts(post, posts),
-  //     relatives: findRelative(post, posts),
-  //   };
-  //   return obj;
-  // });
 
   return events;
 }
