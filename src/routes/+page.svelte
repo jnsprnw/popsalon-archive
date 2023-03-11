@@ -4,17 +4,20 @@
   export let data;
 </script>
 
-<div class="mx-auto max-w-3xl bg-white px-10 pt-20">
-  <header class="px-6">
+<div class="mx-auto max-w-3xl bg-white px-3 pt-20">
+  <header class="md:px-6">
     <h1 class="text-xl font-semibold">Popsalon Archiv</h1>
     <h2 class="text-sm">Unvollständig und inoffiziell</h2>
   </header>
   {#if data.events.length}
     <main role="list">
       {#each data.events as post}
-        <article id={post.id} class="mt-16 mb-6 border-b-4 border-black bg-white px-6 py-6 pb-16">
+        <article
+          id={post.id}
+          class="mt-16 mb-6 border-b-4 border-black bg-white py-6 pb-16 md:px-6"
+        >
           <header class="flex justify-between">
-            <date class="text-5xl font-bold">{post.date.long}</date>
+            <date class="text-3xl font-bold md:text-5xl">{post.date.long}</date>
             {#if post.number}<span class="text-md ml-3 font-semibold text-gray-800"
                 >{post.number}</span
               >{/if}
