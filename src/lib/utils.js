@@ -79,6 +79,9 @@ export const dateFormatter = new Intl.DateTimeFormat('de-DE', {
   day: 'numeric',
 }).format;
 
+export const listFormatter = new Intl.ListFormat('de', { style: 'long', type: 'conjunction' })
+  .format;
+
 // const dateFormatterLong = new Intl.DateTimeFormat('en', {
 //   year: 'numeric',
 //   month: 'long',

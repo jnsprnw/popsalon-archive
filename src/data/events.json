@@ -1,9 +1,886 @@
 [
   {
+    "id": "a3f63fa4-9010-4d1c-8f02-1d750065c5d7",
+    "title": "",
+    "number": 52,
+    "date": {
+      "date": "2023-04-20T20:00:00.000Z",
+      "short": "20.4.2023",
+      "long": "20. April 2023"
+    },
+    "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-gudrun-gut-und-ulrich-gutmair/6869/",
+    "guests": [
+      "Gudrun Gut",
+      "Ulrich Gutmair"
+    ],
+    "videos": []
+  },
+  {
+    "id": "ab17191f-b4cc-4008-a54e-f740549e4441",
+    "title": "Popsalon Spezial: Buchpremiere Tobi Müller \"Play Pause Repeat\"",
+    "number": null,
+    "date": {
+      "date": "2021-09-26T20:00:00.000Z",
+      "short": "26.9.2021",
+      "long": "26. September 2021"
+    },
+    "url": "https://www.deutschestheater.de/programm/a-z/popsalon-spezial-play-pause-repeat/",
+    "guests": [],
+    "videos": []
+  },
+  {
+    "id": "ab783397-0de5-46df-ab11-682cce7db8dd",
+    "title": "",
+    "number": null,
+    "date": {
+      "date": "2019-02-19T21:00:00.000Z",
+      "short": "19.2.2019",
+      "long": "19. Februar 2019"
+    },
+    "url": "https://www.deutschestheater.de/programm/a-z/popsalon_efdemin/",
+    "guests": [
+      "Efdemin (Phillip Sollmann)"
+    ],
+    "videos": []
+  },
+  {
+    "id": "4eda8e66-29e9-41d9-ab2b-b98fb53f005a",
+    "title": null,
+    "number": 51,
+    "date": {
+      "date": "2023-03-21T21:00:00.000Z",
+      "short": "21.3.2023",
+      "long": "21. März 2023"
+    },
+    "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-max-rieger/6768/",
+    "guests": [
+      "Max Rieger (Die Nerven All Diese Gewalt)"
+    ],
+    "videos": []
+  },
+  {
+    "id": "bbe9a73a-f19e-4f8b-80fe-a4ed799aec49",
+    "title": "",
+    "number": null,
+    "date": {
+      "date": "2020-03-03T21:00:00.000Z",
+      "short": "3.3.2020",
+      "long": "3. März 2020"
+    },
+    "url": "https://www.deutschestheater.de/programm/a-z/popsalon-thomas-melle/",
+    "guests": [
+      "Thomas Melle"
+    ],
+    "videos": []
+  },
+  {
+    "id": "e90ec110-57fe-46c9-8349-a8b60aab4dbf",
+    "title": "",
+    "number": null,
+    "date": {
+      "date": "2020-01-22T21:00:00.000Z",
+      "short": "22.1.2020",
+      "long": "22. Januar 2020"
+    },
+    "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-joerg-heiser-julia-lorenz/4438/",
+    "guests": [
+      "Jörg Heiser",
+      "Julia Lorenz (Musikexpress taz)"
+    ],
+    "videos": [
+      {
+        "id": "cb76010e-af96-4937-8d9a-c78eac6a1ac9",
+        "artist": "Mura Masa w/ Slowthai",
+        "title": "Deal Wiv it",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "9186de2a-c26a-4473-9b77-e2976ce301bf",
+        "artist": "King Krule",
+        "title": "(Don't Let the Dragon) Draag On",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "edc96cd0-6298-49d9-b3a2-7dcbf826f41a",
+        "artist": "Grimes",
+        "title": "4ÆM (für Cyberpunk 2077)",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "43bcbfdb-8200-42e8-aee1-8ad4626f4129",
+        "artist": "Selena Gomez",
+        "title": "Rare",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "df15a739-7f1f-4542-9c13-869b6e1a0f6f",
+        "artist": "Fehler Kuti",
+        "title": "All My Friends",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "cc1bb7c4-a751-46f9-846d-1817ffcc1707",
+        "artist": "Tokimonsta",
+        "title": "Fried for the Night (feat. Earthgang)",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "6e568fc7-e8aa-4ef9-9f11-f6b510bf9b76",
+        "artist": "070 Shake",
+        "title": "Guilty Conscience",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "1b45a502-2278-4e12-bb52-ccda8cb1f1d8",
+        "artist": "Jeff Parker & New Breed",
+        "title": "Max Brown",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      }
+    ]
+  },
+  {
+    "id": "9898303f-d70b-443e-8e6e-78ffed504186",
+    "title": "Popsalon meets Müllersalon",
+    "number": null,
+    "date": {
+      "date": "2019-12-11T21:00:00.000Z",
+      "short": "11.12.2019",
+      "long": "11. Dezember 2019"
+    },
+    "url": "https://www.deutschestheater.de/programm/a-z/popsalon_meets_muellersalon_masha_qrella/",
+    "guests": [
+      "Masha Qrella",
+      "Anja Quickert"
+    ],
+    "videos": [
+      {
+        "id": "26b70397-b320-43a4-8a4b-52507218fc21",
+        "artist": "Masha Qrella",
+        "title": "Day after Day (Heiner Müller, David Bowie)",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "5c95b0e6-ac19-47a5-91d8-ebd9207afa07",
+        "artist": "Masha Qrella",
+        "title": "Geister (Thomas Brasch)",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "b88d0858-f93b-41cb-b58a-f9a37d534c07",
+        "artist": "Masha Qrella",
+        "title": "Hure (Thomas Brasch) – Jetzt bist du weg ein halbes Jahr",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "3ffad897-4fae-406e-90c8-f36745d6e377",
+        "artist": "Laibach",
+        "title": "Across the Universe",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "05b2b3f6-bc6e-4a6d-b369-77c76b7904ba",
+        "artist": "Lindemann",
+        "title": "Knebel",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "2e59a4df-6c0a-45ea-a885-b8c987d78f28",
+        "artist": "Alice Kooper",
+        "title": "Only Women Bleed",
+        "year": 1975,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "744feda3-f013-4f99-8d11-9c4e766b8d24",
+        "artist": "Faber",
+        "title": "Generation YouPorn",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      }
+    ]
+  },
+  {
+    "id": "2830bd11-588a-4c51-bf4e-c55b1fe625aa",
+    "title": "",
+    "number": null,
+    "date": {
+      "date": "2019-11-12T21:00:00.000Z",
+      "short": "12.11.2019",
+      "long": "12. November 2019"
+    },
+    "url": "https://www.deutschestheater.de/programm/a-z/popsalon-lippok-binas-preisendoerfer-lippok/",
+    "guests": [
+      "Robert Lippok",
+      "Susanne Binas-Preisendörfer",
+      "Ronald Lippok"
+    ],
+    "videos": [
+      {
+        "id": "ae2baa66-dd99-4a37-9c92-265721bb2e40",
+        "artist": "Ornament und Verbrechen",
+        "title": "When I am, I am not",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "ba6551f1-b1d0-4736-be3f-3a72388e91d1",
+        "artist": "Michael Kiwanuka",
+        "title": "Hero",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "61f00854-80f3-4ba6-94ab-ec83dcc455ad",
+        "artist": "Expander des Fortschritts",
+        "title": "Die Todesanzeige",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "843b9902-458a-4928-8723-6779d75876da",
+        "artist": "Underworld",
+        "title": "Brilliant Yes That Would Be",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "80e5c88d-1af8-45bf-8d8a-52acf4ccfefa",
+        "artist": "Kanye West für Jimmy",
+        "title": "",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "f82d4f24-ce04-4384-88d6-73dfec55a61a",
+        "artist": "Anne Imhof",
+        "title": "Faust Piece",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "ef0a418f-8f03-4162-afb8-6b9402159c15",
+        "artist": "Billie Eilish",
+        "title": "Bury a Friend",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "bf91e0e0-0c71-4c82-8bec-44d58cccab61",
+        "artist": "Luis Ake",
+        "title": "Schillerndes Mädchen",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      }
+    ]
+  },
+  {
+    "id": "91d83da8-db07-40d8-9f3d-10e701a02d78",
+    "title": "",
+    "number": null,
+    "date": {
+      "date": "2019-10-22T20:00:00.000Z",
+      "short": "22.10.2019",
+      "long": "22. Oktober 2019"
+    },
+    "url": "https://www.deutschestheater.de/programm/a-z/popsalon_fanizadeh_lorenz/",
+    "guests": [
+      "Andreas Fanizadeh (taz)",
+      "Julia Lorenz (Musikexpress taz)"
+    ],
+    "videos": [
+      {
+        "id": "9b816848-5473-440d-b0d2-24aaa3aca707",
+        "artist": "MC Solaar",
+        "title": "Noveau Western",
+        "year": 1994,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "546ce164-3634-4b6f-9c5b-e4d234a6b7ea",
+        "artist": "Loredana feat. Nero",
+        "title": "Kein Plan",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "88ee0073-f192-4d93-8b51-5aa1a9b34edc",
+        "artist": "Ah Nice",
+        "title": "Der neuen Mero",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "bc16edb0-65d7-4c44-aa74-ae20c66a03d3",
+        "artist": "Chris Ares x Prototyp",
+        "title": "Neuer Deutscher Standard",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "e9fc2dbc-29fe-4da3-8853-8c70a6e8c7b6",
+        "artist": "Fairuz",
+        "title": "Habaytak Bisayf",
+        "year": 1979,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "351a7daf-026c-42c4-85a8-cc9f74b54d7a",
+        "artist": "Kim Gordon",
+        "title": "Sketch Artist",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "3b3bbfe6-d39d-44fb-85a4-fc958c8e0f0b",
+        "artist": "Schandmaul",
+        "title": "Der Totengräber",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ]
+      },
+      {
+        "id": "2d1ca5f5-77d7-4421-85a6-fa7f2a23bed9",
+        "artist": "Cyclops Dance (feat. Jonas Kullhammar, Mikko Innanen, Christian Lillinger & Otis Sandsjö)",
+        "title": "Koma Saxo",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6e6bc23f-c62e-44f5-8ebb-b72ab00ff301",
+    "title": "",
+    "number": null,
+    "date": {
+      "date": "2020-04-14T20:00:00.000Z",
+      "short": "14.4.2020",
+      "long": "14. April 2020"
+    },
+    "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-monica-bonvicini/4646/",
+    "guests": [
+      "Monica Bonvicini"
+    ],
+    "videos": []
+  },
+  {
+    "id": "f73a7550-63ce-4bde-9da0-aa0731303e85",
+    "title": "",
+    "number": null,
+    "date": {
+      "date": "2020-10-25T21:00:00.000Z",
+      "short": "25.10.2020",
+      "long": "25. Oktober 2020"
+    },
+    "url": "https://www.deutschestheater.de/programm/spielplan/popsalon_gayle_tufts/4863/",
+    "guests": [
+      "Gayle Tufts"
+    ],
+    "videos": []
+  },
+  {
+    "id": "340f89b2-bd2a-4d7d-a717-5fd5a3c1feef",
+    "title": "",
+    "number": null,
+    "date": {
+      "date": "2021-10-19T20:00:00.000Z",
+      "short": "19.10.2021",
+      "long": "19. Oktober 2021"
+    },
+    "url": null,
+    "guests": [
+      "Sebastian Krumbiegel"
+    ],
+    "videos": []
+  },
+  {
+    "id": "5d9761fa-0b8e-4b8d-994a-94e8763e6ef5",
+    "title": "Zehn Jahre Popsalon",
+    "number": 39,
+    "date": {
+      "date": "2021-12-21T21:00:00.000Z",
+      "short": "21.12.2021",
+      "long": "21. Dezember 2021"
+    },
+    "url": null,
+    "guests": [],
+    "videos": []
+  },
+  {
+    "id": "45f7a6ac-b7f2-44e6-a017-312e309a33d7",
+    "title": null,
+    "number": 40,
+    "date": {
+      "date": "2022-01-11T21:00:00.000Z",
+      "short": "11.1.2022",
+      "long": "11. Januar 2022"
+    },
+    "url": "https://www.deutschestheater.de/programm/a-z/popsalon-albertine-sarges-pamela-schobess/",
+    "guests": [
+      "Albertine Sarges (Musikerin)",
+      "Pamela Schobeß (Gretchen Club)"
+    ],
+    "videos": []
+  },
+  {
+    "id": "ba81e11b-8229-431f-a755-00dfedf35979",
+    "title": null,
+    "number": 41,
+    "date": {
+      "date": "2022-03-01T21:00:00.000Z",
+      "short": "1.3.2022",
+      "long": "1. März 2022"
+    },
+    "url": "https://www.deutschestheater.de/programm/a-z/popsalon-marion-brasch-hendrik-bolz/",
+    "guests": [
+      "Marion Brasch (Autorin)",
+      "Hendrik Bolz (Autor und Rapper / Zugezogen Maskulin)"
+    ],
+    "videos": [
+      {
+        "id": "f2de5f65-e817-44c4-9669-a4af94c9d833",
+        "artist": "Tom Waits",
+        "title": "Jockey Full of Bourbon",
+        "year": 1985,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Marion Barsch"
+        ]
+      },
+      {
+        "id": "cf78ca28-8fbc-45a2-823e-82e7f8860710",
+        "artist": "Sido",
+        "title": "Mein Block",
+        "year": 2004,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Hendrik Bolz"
+        ]
+      },
+      {
+        "id": "1cde3779-6e82-4b6f-b1ef-9c7d691beba5",
+        "artist": "Käptn Peng & Die Tentakel von Delphi",
+        "title": "Der Anfang ist nah",
+        "year": 2013,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Marion Barsch"
+        ]
+      },
+      {
+        "id": "496a5446-096d-42af-9246-692050933af5",
+        "artist": "Joe Rilla",
+        "title": "Der Osten rollt",
+        "year": 2007,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Hendrik Bolz"
+        ]
+      },
+      {
+        "id": "246b2f5b-3ca6-4e27-895e-d6912d8c7603",
+        "artist": "Space Africa",
+        "title": "B£E feat. Blackhaine",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ]
+      },
+      {
+        "id": "4a79585e-5c70-4028-a0a7-ff0bf6c5f545",
+        "artist": "Casper",
+        "title": "Alles war schön",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ]
+      },
+      {
+        "id": "78cbb7e9-b20d-44c1-aa95-907166882209",
+        "artist": "Sharon van Etten",
+        "title": "Porta",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dae15d0a-5d33-483c-924c-c745df124b85",
+    "title": null,
+    "number": 42,
+    "date": {
+      "date": "2022-04-27T20:00:00.000Z",
+      "short": "27.4.2022",
+      "long": "27. April 2022"
+    },
+    "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-otremba-doyle/5955/",
+    "guests": [
+      "Hendrik Otremba",
+      "Tara Nome Doyle"
+    ],
+    "videos": []
+  },
+  {
+    "id": "f9f40a4c-5f57-4d65-b788-a0e0a1112650",
+    "title": "Popsalon Spezial: Buchpremiere Jens Balzer \"Schmalz und Rebellion”",
+    "number": 43,
+    "date": {
+      "date": "2022-05-17T20:00:00.000Z",
+      "short": "17.5.2022",
+      "long": "17. Mai 2022"
+    },
+    "url": null,
+    "guests": [],
+    "videos": []
+  },
+  {
+    "id": "e0ab2274-11e5-4d16-88b6-3137ce14597f",
+    "title": null,
+    "number": 44,
+    "date": {
+      "date": "2022-06-21T20:00:00.000Z",
+      "short": "21.6.2022",
+      "long": "21. Juni 2022"
+    },
+    "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-winson-und-ueli-haefliger/6177/",
+    "guests": [
+      "Winson",
+      "Ueli Häfliger (Goldstückli Podcast Ex-Flux FM)"
+    ],
+    "videos": []
+  },
+  {
+    "id": "7f546884-e452-4f9e-a96a-798ea41acaf9",
+    "title": null,
+    "number": 45,
+    "date": {
+      "date": "2022-09-27T20:00:00.000Z",
+      "short": "27.9.2022",
+      "long": "27. September 2022"
+    },
+    "url": "https://www.deutschestheater.de/programm/a-z/popsalon-eric-pfeil/",
+    "guests": [
+      "Eric Pfeil (Autor und Italo-Pop-Experte)"
+    ],
+    "videos": []
+  },
+  {
+    "id": "ebe04bb4-d20f-44a7-a311-2ad6c736ebf3",
+    "title": null,
+    "number": 46,
+    "date": {
+      "date": "2022-10-11T20:00:00.000Z",
+      "short": "11.10.2022",
+      "long": "11. Oktober 2022"
+    },
+    "url": null,
+    "guests": [
+      "Laura Aha",
+      "Laura Ewert"
+    ],
+    "videos": []
+  },
+  {
+    "id": "5abd52b4-6b25-499f-8eef-4a79c5690671",
+    "title": null,
+    "number": 47,
+    "date": {
+      "date": "2022-11-15T21:00:00.000Z",
+      "short": "15.11.2022",
+      "long": "15. November 2022"
+    },
+    "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-drangsal-max-gruber/6380/",
+    "guests": [
+      "Drangsal (Max Gruber)"
+    ],
+    "videos": [
+      {
+        "id": "a4049ca3-d6e4-4ee4-a060-f48b2b0760e7",
+        "artist": "Drangsal",
+        "title": "Magst du mich",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Drangsal"
+        ]
+      },
+      {
+        "id": "6ab1e276-f1e6-44c8-a12c-c0b6f0c72b45",
+        "artist": "Aphex Twin",
+        "title": "Windowlicker",
+        "year": 1999,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Drangsal"
+        ]
+      },
+      {
+        "id": "96e365e3-09e6-482f-af34-a1441ac5363d",
+        "artist": "Taylor Swift",
+        "title": "Anti-Hero",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ]
+      },
+      {
+        "id": "36336452-3f7a-4767-9bec-372c8cdeed61",
+        "artist": "Moonchild Sanelly",
+        "title": "Chicken",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ]
+      },
+      {
+        "id": "64cb8020-c3fb-4bbd-8be8-59a5e2ea1ca5",
+        "artist": "Rammstein",
+        "title": "Dicke Titten",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": []
+      },
+      {
+        "id": "d45ccc64-5a50-4b97-ae34-32e0fd03628d",
+        "artist": "Bruce Springsteen",
+        "title": "Nightshift",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ]
+      },
+      {
+        "id": "44f622e0-b160-4d26-a3b0-a776ecbbaa36",
+        "artist": "Mimi Parker",
+        "title": "Low: Shane",
+        "year": 1995,
+        "rip": false,
+        "played": true,
+        "person": []
+      }
+    ]
+  },
+  {
+    "id": "b530734a-b76f-4f5c-9101-9de380447f2d",
+    "title": null,
+    "number": 48,
+    "date": {
+      "date": "2022-12-14T21:00:00.000Z",
+      "short": "14.12.2022",
+      "long": "14. Dezember 2022"
+    },
+    "url": null,
+    "guests": [
+      "Joachim Hentschel (Süddeutsche Zeitung)",
+      "Vivian Perkovic (3sat Kulturzeit)",
+      "Jenni Zylka (radioeins)"
+    ],
+    "videos": [
+      {
+        "id": "e811f047-09ac-4fd0-8d59-bde1f79267af",
+        "artist": "Beyoncé",
+        "title": "Cuff it",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Vivian Perkovic"
+        ]
+      },
+      {
+        "id": "4bf874d0-9a40-4f41-ae38-2da4c1e865e5",
+        "artist": "Björk",
+        "title": "Atopos",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Joachim Hentschel"
+        ]
+      },
+      {
+        "id": "a2393ca2-687b-44ca-8d21-5b42b7a26ee0",
+        "artist": "Wet Leg",
+        "title": "Ur Mum",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jenni Zylka"
+        ]
+      },
+      {
+        "id": "f7303a8b-b3be-451c-85d6-394d861061ac",
+        "artist": "Kardashev",
+        "title": "Glass Phantoms",
+        "year": null,
+        "rip": false,
+        "played": false,
+        "person": [
+          "Jens Balzer"
+        ]
+      },
+      {
+        "id": "d2daa240-c8e6-455a-b537-5d9e5d194da1",
+        "artist": "Sault",
+        "title": "Glory",
+        "year": null,
+        "rip": false,
+        "played": false,
+        "person": [
+          "Tobi Müller"
+        ]
+      },
+      {
+        "id": "ac67bc1a-3f0d-4ec3-bb05-0d7eb89f606b",
+        "artist": "Albertine Sarges",
+        "title": "Hold On",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Vivian Perkovic"
+        ]
+      },
+      {
+        "id": "ba11b6e0-13d6-484c-9c33-353951266d29",
+        "artist": "John Cale feat. Weyes Blood",
+        "title": "Story of Blood",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Joachim Hentschel"
+        ]
+      },
+      {
+        "id": "c7d71947-4ce5-4748-9804-4f7dda0b47b4",
+        "artist": "Megan Thee Stallion",
+        "title": "Plan B",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jenni Zylka"
+        ]
+      },
+      {
+        "id": "190744fc-2c2d-4aed-a83b-6f0060bab813",
+        "artist": "Manuel Göttsching",
+        "title": "E2-E4",
+        "year": null,
+        "rip": true,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ]
+      }
+    ]
+  },
+  {
     "id": "b99c81cb-9f00-4431-9b13-a459b770d876",
+    "title": null,
     "number": 50,
     "date": {
-      "date": "2023-02-22T00:00:00.000Z",
+      "date": "2023-02-22T21:00:00.000Z",
       "short": "22.2.2023",
       "long": "22. Februar 2023"
     },
@@ -94,9 +971,10 @@
   },
   {
     "id": "e829ac4c-b409-4c3e-93ff-ad7ca8379e0a",
+    "title": null,
     "number": 49,
     "date": {
-      "date": "2023-01-17T00:00:00.000Z",
+      "date": "2023-01-17T21:00:00.000Z",
       "short": "17.1.2023",
       "long": "17. Januar 2023"
     },
@@ -181,189 +1059,5 @@
         "person": []
       }
     ]
-  },
-  {
-    "id": "b530734a-b76f-4f5c-9101-9de380447f2d",
-    "number": 48,
-    "date": {
-      "date": "2022-12-14T00:00:00.000Z",
-      "short": "14.12.2022",
-      "long": "14. Dezember 2022"
-    },
-    "url": null,
-    "guests": [
-      "Joachim Hentschel (Süddeutsche Zeitung)",
-      "Vivian Perkovic (3sat Kulturzeit)",
-      "Jenni Zylka (radioeins)"
-    ],
-    "videos": []
-  },
-  {
-    "id": "5abd52b4-6b25-499f-8eef-4a79c5690671",
-    "number": 47,
-    "date": {
-      "date": "2022-11-15T00:00:00.000Z",
-      "short": "15.11.2022",
-      "long": "15. November 2022"
-    },
-    "url": null,
-    "guests": [
-      "Drangsal (Max Gruber)"
-    ],
-    "videos": []
-  },
-  {
-    "id": "ebe04bb4-d20f-44a7-a311-2ad6c736ebf3",
-    "number": 46,
-    "date": {
-      "date": "2022-10-11T00:00:00.000Z",
-      "short": "11.10.2022",
-      "long": "11. Oktober 2022"
-    },
-    "url": null,
-    "guests": [
-      "Laura Aha",
-      "Laura Ewert"
-    ],
-    "videos": []
-  },
-  {
-    "id": "7f546884-e452-4f9e-a96a-798ea41acaf9",
-    "number": 45,
-    "date": {
-      "date": "2022-09-27T00:00:00.000Z",
-      "short": "27.9.2022",
-      "long": "27. September 2022"
-    },
-    "url": null,
-    "guests": [
-      "Eric Pfeil (Autor und Italo-Pop-Experte)"
-    ],
-    "videos": []
-  },
-  {
-    "id": "e0ab2274-11e5-4d16-88b6-3137ce14597f",
-    "number": 44,
-    "date": {
-      "date": "2022-06-21T00:00:00.000Z",
-      "short": "21.6.2022",
-      "long": "21. Juni 2022"
-    },
-    "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-winson-und-ueli-haefliger/6177/",
-    "guests": [
-      "Winson und Ueli Häfliger (Goldstückli Podcast Ex-Flux FM)"
-    ],
-    "videos": []
-  },
-  {
-    "id": "f9f40a4c-5f57-4d65-b788-a0e0a1112650",
-    "number": 43,
-    "date": {
-      "date": "2022-05-17T00:00:00.000Z",
-      "short": "17.5.2022",
-      "long": "17. Mai 2022"
-    },
-    "url": null,
-    "guests": [],
-    "videos": []
-  },
-  {
-    "id": "dae15d0a-5d33-483c-924c-c745df124b85",
-    "number": 42,
-    "date": {
-      "date": "2022-04-27T00:00:00.000Z",
-      "short": "27.4.2022",
-      "long": "27. April 2022"
-    },
-    "url": null,
-    "guests": [
-      "Hendrik Otremba",
-      "Tara Nome Doyle"
-    ],
-    "videos": []
-  },
-  {
-    "id": "ba81e11b-8229-431f-a755-00dfedf35979",
-    "number": 41,
-    "date": {
-      "date": "2022-03-01T00:00:00.000Z",
-      "short": "1.3.2022",
-      "long": "1. März 2022"
-    },
-    "url": null,
-    "guests": [
-      "Marion Brasch (Autorin)",
-      "Hendrik Bolz (Autor und Rapper / Zugezogen Maskulin)"
-    ],
-    "videos": []
-  },
-  {
-    "id": "45f7a6ac-b7f2-44e6-a017-312e309a33d7",
-    "number": 40,
-    "date": {
-      "date": "2022-01-11T00:00:00.000Z",
-      "short": "11.1.2022",
-      "long": "11. Januar 2022"
-    },
-    "url": null,
-    "guests": [
-      "Albertine Sarges (Musikerin)",
-      "Pamela Schobeß (Gretchen Club)"
-    ],
-    "videos": []
-  },
-  {
-    "id": "5d9761fa-0b8e-4b8d-994a-94e8763e6ef5",
-    "number": 39,
-    "date": {
-      "date": "2021-12-21T00:00:00.000Z",
-      "short": "21.12.2021",
-      "long": "21. Dezember 2021"
-    },
-    "url": null,
-    "guests": [],
-    "videos": []
-  },
-  {
-    "id": "340f89b2-bd2a-4d7d-a717-5fd5a3c1feef",
-    "number": null,
-    "date": {
-      "date": "2021-10-19T00:00:00.000Z",
-      "short": "19.10.2021",
-      "long": "19. Oktober 2021"
-    },
-    "url": null,
-    "guests": [
-      "Sebastian Krumbiegel"
-    ],
-    "videos": []
-  },
-  {
-    "id": "f73a7550-63ce-4bde-9da0-aa0731303e85",
-    "number": null,
-    "date": {
-      "date": "2020-10-25T00:00:00.000Z",
-      "short": "25.10.2020",
-      "long": "25. Oktober 2020"
-    },
-    "url": "https://www.deutschestheater.de/programm/spielplan/popsalon_gayle_tufts/4863/",
-    "guests": [
-      "Gayle Tufts"
-    ],
-    "videos": []
-  },
-  {
-    "id": "6e6bc23f-c62e-44f5-8ebb-b72ab00ff301",
-    "number": null,
-    "date": {
-      "date": "2020-04-14T00:00:00.000Z",
-      "short": "14.4.2020",
-      "long": "14. April 2020"
-    },
-    "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-monica-bonvicini/4646/",
-    "guests": [
-      "Monica Bonvicini"
-    ],
-    "videos": []
   }
 ]

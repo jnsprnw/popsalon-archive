@@ -1,5 +1,5 @@
 <script>
-  import { dateFormatter } from '$lib/utils.js';
+  import { dateFormatter, listFormatter } from '$lib/utils.js';
   /** @type {import('./$types').PageData} */
   export let data;
 </script>
@@ -15,16 +15,31 @@
         <article
           id={post.id}
           class="mt-16 mb-6 border-b-4 border-black bg-white py-6 pb-16 md:px-6"
+          itemprop="event"
+          itemscope
+          itemtype="https://schema.org/Event"
         >
           <header class="flex justify-between">
-            <date class="text-3xl font-bold md:text-5xl">{post.date.long}</date>
+            <meta itemprop="name" content="Popsalon – Balzer und Müller laden ein" />
+            <meta itemprop="attendee" content="Jens Balzer" />
+            <meta itemprop="attendee" content="Tobi Müller" />
+            <meta itemprop="location" content="Deutsches Theater, Berlin" />
+            <div>
+              <date
+                class="text-3xl font-bold md:text-5xl"
+                itemprop="startDate"
+                datetime={post.date.date}>{post.date.long}</date
+              >
+              {#if post.title}<h1 class="my-2">{post.title}</h1>{/if}
+            </div>
             {#if post.number}<span class="text-md ml-3 font-semibold text-gray-800"
                 >{post.number}</span
               >{/if}
           </header>
           {#if post.url}<a
               class="mt-2 mb-1 inline-block border-b border-b-accent text-sm hover:text-accent"
-              href={post.url}>Link zur Veranstaltung</a
+              href={post.url}
+              itemprop="url">Link zur Veranstaltung</a
             >{/if}
           {#if post.guests.length || post.videos.length}
             <main>
@@ -38,6 +53,7 @@
                       {#each post.guests as guest}
                         <li
                           class="mb-3 border-b border-b-gray-200 pb-3 text-lg font-semibold leading-6 last:border-b-0"
+                          itemprop="attendee"
                         >
                           {guest}
                         </li>
@@ -55,12 +71,22 @@
                         <li
                           class:line-through={!played}
                           class="mb-3 border-b border-b-gray-200 pb-3 last:border-b-0"
+                          itemprop="track"
+                          itemscope
+                          itemtype="https://schema.org/MusicRecording"
                         >
                           <div class="flex items-start justify-between">
                             <div>
-                              <span class="text-lg font-semibold leading-6">{artist}</span> –
-                              <span class="text-lg font-semibold leading-6">{title}</span>
-                              {#if year}<span class="ml-2 text-xs">{year}</span>{/if}
+                              <span class="text-lg font-semibold leading-6" itemprop="byArtist"
+                                >{artist}</span
+                              >{#if title}
+                                –
+                                <span class="text-lg font-semibold leading-6" itemprop="name"
+                                  >{title}</span
+                                >{/if}
+                              {#if year}<span class="ml-2 text-xs" itemprop=" copyrightYear"
+                                  >{year}</span
+                                >{/if}
                             </div>
                             {#if rip}<span class="py-0.5 text-xs text-gray-500">RIP</span>{/if}
                           </div>

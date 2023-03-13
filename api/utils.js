@@ -54,17 +54,19 @@ export async function formatEvents(arr) {
     const post = arr[i];
     const id = post.id;
     const props = post.properties;
+    const name = props['Name'].title.map(({ plain_text }) => plain_text).join('');
     const number = props.Number.number;
-    const date = new Date(props.Datum.date.start);
+    const date = new Date(new Date(props.Datum.date.start).setHours(22));
     const url = props.URL.url;
     const guests = props['Gäste'].multi_select.map(({ name }) => name);
     const content = props['Videos'].relation.map(({ id }) => videos[id]).filter(Boolean);
 
     const item = {
       id,
+      title: name === String(number) ? null : name,
       number,
       date: {
-        date,
+        date: date.toISOString(),
         short: dateFormatter(date),
         long: dateFormatterLong(date),
       },
