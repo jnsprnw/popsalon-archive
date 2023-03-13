@@ -66,7 +66,8 @@ export async function formatEvents(arr) {
       title: name === String(number) ? null : name,
       number,
       date: {
-        date: date.toISOString(),
+        date,
+        iso: date.toISOString(),
         short: dateFormatter(date),
         long: dateFormatterLong(date),
       },

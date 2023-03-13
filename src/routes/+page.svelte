@@ -28,7 +28,7 @@
               <date
                 class="text-3xl font-bold md:text-5xl"
                 itemprop="startDate"
-                datetime={post.date.date}>{post.date.long}</date
+                datetime={post.date.iso}>{post.date.long}</date
               >
               {#if post.title}<h1 class="my-2">{post.title}</h1>{/if}
             </div>
@@ -46,7 +46,7 @@
               <dl>
                 {#if post.guests.length}
                   <dd class="mt-6 mb-4 border-t-2 border-t-black pt-1 text-sm text-gray-800">
-                    Gäste
+                    {#if post.guests.length === 1}Gast{:else}Gäste{/if}
                   </dd>
                   <dt>
                     <ul>
