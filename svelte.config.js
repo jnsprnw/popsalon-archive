@@ -12,6 +12,9 @@ const config = {
     alias: {
       $events: path.resolve('./src/data/events.json'),
     },
+    prerender: {
+      entries: ['/sitemap.xml'],
+    },
   },
   vite: {
     define: {
