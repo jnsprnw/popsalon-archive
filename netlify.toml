@@ -4,3 +4,9 @@
 
 [functions]
   node_bundler = "esbuild"
+
+
+[[headers]]
+  for = "/content.json"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
