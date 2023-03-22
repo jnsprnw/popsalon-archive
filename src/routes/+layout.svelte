@@ -32,7 +32,7 @@
   <link rel="canonical" href={baseURL} />
   <meta name="twitter:url" content={baseURL} />
   <meta property="og:title" content={title} />
-  <meta property="og:updated_time" content={updated_time} />
+  <meta property="og:updated_time" content={updated_time.toISOString()} />
 </svelte:head>
 
 <slot />
