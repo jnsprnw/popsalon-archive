@@ -13,7 +13,7 @@ const config = {
       $events: path.resolve('./src/data/events.json'),
     },
     prerender: {
-      entries: ['/', '/sitemap.xml'],
+      entries: ['/', '/sitemap.xml', '/content.json'],
     },
   },
   vite: {
