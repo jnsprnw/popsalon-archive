@@ -13,6 +13,7 @@
     <main role="list">
       {#each data.events as post}
         <article
+          role="listitem"
           id={post.id}
           class="mt-16 mb-6 border-b-4 border-black bg-white py-6 pb-16 md:px-6"
           itemprop="event"
