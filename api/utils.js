@@ -8,7 +8,7 @@ const DATABASE_EVENTS = process.env.VITE_NOTION_DATABASE_EVENTS;
 const DATABASE_VIDEOS = process.env.VITE_NOTION_DATABASE_VIDEOS;
 const bearer = process.env.VITE_NOTION_SECRET;
 
-async function fetchContent(id) {
+async function fetchContent(id, start_cursor) {
   const result = await fetch(`https://api.notion.com/v1/databases/${id}/query`, {
     method: 'POST',
     headers: {
@@ -18,6 +18,7 @@ async function fetchContent(id) {
     },
     body: JSON.stringify({
       page_size: 100,
+      start_cursor
     }),
   });
 
@@ -37,17 +38,37 @@ const dateFormatterLong = new Intl.DateTimeFormat('de-DE', {
 }).format;
 
 export async function getEvents() {
-  const response = await fetchContent(DATABASE_EVENTS);
-  return await formatEvents(response.results);
+  let hasMore = false;
+  let start_cursor = undefined;
+  const events = [];
+  do {
+    const response = await fetchContent(DATABASE_EVENTS, start_cursor);
+    const arr = await formatEvents(response.results);
+    events.push(...arr);
+    hasMore = response.has_more;
+    start_cursor = response.results.at(-1).id;
+  } while (hasMore)
+  return events;
 }
 
 async function getVideos() {
-  const response = await fetchContent(DATABASE_VIDEOS);
-  return await formatVideos(response.results);
+  let hasMore = false;
+  let start_cursor = undefined;
+  const videos = [];
+  do {
+    const response = await fetchContent(DATABASE_VIDEOS, start_cursor);
+    const arr = await formatVideos(response.results);
+    videos.push(...arr);
+    hasMore = response.has_more;
+    start_cursor = response.results.at(-1).id;
+  } while (hasMore)
+  return Object.fromEntries(videos);
 }
 
 export async function formatEvents(arr) {
+  console.log(`Events: ${arr.length}`);
   const videos = await getVideos();
+  console.log(`Videos: ${Object.keys(videos).length}`);
 
   let events = [];
   for (let i = 0; i < arr.length; i++) {
@@ -113,5 +134,5 @@ export async function formatVideos(arr) {
     videos.push([id, item]);
   }
 
-  return Object.fromEntries(videos);
+  return videos;
 }
