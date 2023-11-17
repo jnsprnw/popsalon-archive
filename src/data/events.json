@@ -1,7 +1,311 @@
 [
   {
+    "id": "0087c16e-b797-4719-b589-088f991acecb",
+    "title": null,
+    "number": 55,
+    "date": {
+      "date": "2023-10-04T20:00:00.000Z",
+      "iso": "2023-10-04T20:00:00.000Z",
+      "short": "4.10.2023",
+      "long": "4. Oktober 2023"
+    },
+    "url": "https://www.deutschestheater.de/programm/spielplan/popsalon/7199/",
+    "guests": [
+      "Peter Urban (Journalist und ESC-Moderator)"
+    ],
+    "videos": [
+      {
+        "id": "d3b714b4-c759-4715-9e3b-775ea771844a",
+        "artist": "Joni Mitchell",
+        "title": "Coyote",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Peter Urban"
+        ]
+      },
+      {
+        "id": "f175874d-7256-458f-889b-ee50703267c8",
+        "artist": "Tim Buckley",
+        "title": "Song to the Siren",
+        "year": 1968,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Peter Urban"
+        ]
+      },
+      {
+        "id": "fc86651d-fcd5-464c-8109-69307660510e",
+        "artist": "Ann Sophie",
+        "title": "Black Smoke",
+        "year": 2015,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ]
+      },
+      {
+        "id": "e1ca29eb-a1c4-426b-b6a3-9da4af012861",
+        "artist": "U2",
+        "title": "Atomic City",
+        "year": 2023,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ]
+      },
+      {
+        "id": "6696c0fa-c5cc-4568-9f6e-37cdfd47ce39",
+        "artist": "Johnny Cash",
+        "title": "Hurt",
+        "year": 2002,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Peter Urban"
+        ]
+      },
+      {
+        "id": "64212244-2b3d-4945-a75c-09272216dea9",
+        "artist": "Janelle Monáe feat. Big Boi",
+        "title": "Tightrope",
+        "year": 2010,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Peter Urban"
+        ]
+      },
+      {
+        "id": "eb302609-2ae6-4d3c-a7ba-e9661bd94b07",
+        "artist": "The Rolling Stone",
+        "title": "Angry",
+        "year": 2023,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ]
+      },
+      {
+        "id": "a5b2626d-9e0c-49b6-b5da-7a8092cf2c72",
+        "artist": "Roísin Murphy (prod. Koze)",
+        "title": "What not to do",
+        "year": 2023,
+        "rip": false,
+        "played": false,
+        "person": [
+          "Tobi Müller"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7e85f0a4-7f95-4b7a-a848-ed6cdde367aa",
+    "title": null,
+    "number": 54,
+    "date": {
+      "date": "2023-06-07T20:00:00.000Z",
+      "iso": "2023-06-07T20:00:00.000Z",
+      "short": "7.6.2023",
+      "long": "7. Juni 2023"
+    },
+    "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-andreas-borcholte-spiegel-silvia-silko-tagesspiegel-sebastian-zabel-rolling-stone/7065/",
+    "guests": [
+      "Andreas Borcholte (Spiegel)",
+      "Silvia Silko (Tagesspiegel)",
+      "Sebastian Zabel (Rolling Stone)"
+    ],
+    "videos": [
+      {
+        "id": "ec42f0f3-68a3-4fc4-b22f-5e74c594c391",
+        "artist": "Bipolar Feminin",
+        "title": "Tüchtig",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Silvia Silko"
+        ]
+      },
+      {
+        "id": "381b6db8-04f6-4b63-af78-def246617091",
+        "artist": "Die Bejmanins",
+        "title": "Aus Liebe",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Sebastian Zabel"
+        ]
+      },
+      {
+        "id": "b9ea2757-3794-404a-8d2b-abd7f2323c42",
+        "artist": "Augn ",
+        "title": "Deutschrap ist tot",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Andreas Borcholte"
+        ]
+      },
+      {
+        "id": "ee278303-a0e1-46f8-b54f-3f6bd80a251a",
+        "artist": "Die Amigos",
+        "title": "Pharao",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ]
+      },
+      {
+        "id": "5777ca22-e985-459b-a909-206c0af123ea",
+        "artist": "Dudu Tassa & Jonny Greenwood",
+        "title": "Ya‘Anid Ya Yaba (feat. Lynn Adib)",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ]
+      },
+      {
+        "id": "3b052905-82d1-4032-840d-1cb9bd4dcc36",
+        "artist": "Hemlocke Springs",
+        "title": "Sever the Blight",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Silvia Silko"
+        ]
+      },
+      {
+        "id": "191d2d7e-551f-4d59-a900-f85b1daa0f4e",
+        "artist": "Tina Turner",
+        "title": "Tonight (w/ David Bowie)",
+        "year": 1985,
+        "rip": true,
+        "played": true,
+        "person": []
+      }
+    ]
+  },
+  {
+    "id": "fc869fad-8fbc-4317-be14-fcdd86ac6d14",
+    "title": null,
+    "number": 53,
+    "date": {
+      "date": "2023-05-19T20:00:00.000Z",
+      "iso": "2023-05-19T20:00:00.000Z",
+      "short": "19.5.2023",
+      "long": "19. Mai 2023"
+    },
+    "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-yuriy-gurzhy/6985/",
+    "guests": [
+      "Yuriy Gurzhy (Autor Musiker DJ)"
+    ],
+    "videos": [
+      {
+        "id": "39b4d6c6-12b8-41f8-bdf3-28bde000e381",
+        "artist": "Фокстроти / Foxtrots",
+        "title": "Бажан (Інтро) / Wish (Intro)",
+        "year": 2021,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Yuriy Gurzhy"
+        ]
+      },
+      {
+        "id": "ea1d11b6-cc7b-4d30-ab02-777144f3cb69",
+        "artist": "The Barry Sisters",
+        "title": "Yoshke Furt Avek",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Yuriy Gurzhy"
+        ]
+      },
+      {
+        "id": "e7d954a5-d415-4ebe-897c-f4dcf7995d08",
+        "artist": "Pet Shop Boys",
+        "title": "The Lost Room",
+        "year": 2023,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ]
+      },
+      {
+        "id": "1aee9eec-87d5-4817-a956-cc4a8e6fb22d",
+        "artist": "Asher Gamedze",
+        "title": "Wynter Time",
+        "year": 2022,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ]
+      },
+      {
+        "id": "d2093712-6515-4e6c-a424-e4030d0822bc",
+        "artist": "Jamala",
+        "title": "ÇALAŞ BORA",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Yuriy Gurzhy"
+        ]
+      },
+      {
+        "id": "df72aea8-77de-4970-9d35-427d2638d1cc",
+        "artist": "Anohni & The Johnsons",
+        "title": "It must change",
+        "year": 2023,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ]
+      },
+      {
+        "id": "0659e3a4-e52f-44b7-8a94-24a10feae11a",
+        "artist": "Jessy Lanza",
+        "title": "Seven 55",
+        "year": 2021,
+        "rip": false,
+        "played": false,
+        "person": [
+          "Tobi Müller"
+        ]
+      },
+      {
+        "id": "d02069e3-e95e-44a6-89b0-f34d6f55167b",
+        "artist": "Andy Rourke",
+        "title": "The Smiths: This Charming Man",
+        "year": null,
+        "rip": true,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ]
+      }
+    ]
+  },
+  {
     "id": "a3f63fa4-9010-4d1c-8f02-1d750065c5d7",
-    "title": "",
+    "title": null,
     "number": 52,
     "date": {
       "date": "2023-04-20T20:00:00.000Z",
@@ -14,7 +318,94 @@
       "Gudrun Gut",
       "Ulrich Gutmair (taz)"
     ],
-    "videos": []
+    "videos": [
+      {
+        "id": "54139a1d-31f4-413a-92fe-e2444bff2103",
+        "artist": "Malaria!",
+        "title": "Geld",
+        "year": 1983,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Gudrun Gut"
+        ]
+      },
+      {
+        "id": "f2c944c1-9a5d-44d9-bb2c-888b3e427eb9",
+        "artist": "Östro 430",
+        "title": "S-Bahn",
+        "year": 1981,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Ulrich Gutmair"
+        ]
+      },
+      {
+        "id": "35feca8e-3931-4aef-80e6-9796735144ea",
+        "artist": "Brutalismus 3000",
+        "title": "Die Liebe kommt nicht aus Berlin",
+        "year": 2023,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ]
+      },
+      {
+        "id": "64740026-7f16-4f82-8fe8-efe75c237552",
+        "artist": "Lankum",
+        "title": "Go dig my grave",
+        "year": 2023,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ]
+      },
+      {
+        "id": "ad19d777-0841-4cb9-b818-aa5241f87b3a",
+        "artist": "Gudrun Gut",
+        "title": "Garten",
+        "year": 2012,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Gudrun Gut"
+        ]
+      },
+      {
+        "id": "65b941f1-bd3f-44d9-9c6b-e2689eec57f4",
+        "artist": "Plastix",
+        "title": "Geschlechtsverkehr",
+        "year": 1981,
+        "rip": false,
+        "played": false,
+        "person": []
+      },
+      {
+        "id": "5cb3f757-3986-4655-9e45-05a6626fcc7f",
+        "artist": "Salò",
+        "title": "Apollonia sitzt bei Edeka an der Kassa",
+        "year": 2022,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Ulrich Gutmair"
+        ]
+      },
+      {
+        "id": "17a7f8b9-2ab0-4a5f-8063-947d124e89dd",
+        "artist": "Theo Parrish",
+        "title": "Footwork",
+        "year": 2014,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ]
+      }
+    ]
   },
   {
     "id": "4eda8e66-29e9-41d9-ab2b-b98fb53f005a",
@@ -30,7 +421,96 @@
     "guests": [
       "Max Rieger (Die Nerven All Diese Gewalt)"
     ],
-    "videos": []
+    "videos": [
+      {
+        "id": "fa4306d3-235b-4d8d-b96d-5b4c15884837",
+        "artist": "Weimar",
+        "title": "Alles Lüge",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ]
+      },
+      {
+        "id": "269f98e8-81b6-48b6-9d50-3268fd171bd4",
+        "artist": "Einstürzende Neubauten",
+        "title": "The Garden",
+        "year": 2001,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Max Rieger"
+        ]
+      },
+      {
+        "id": "e9d8a43c-9b71-42f4-b875-5c0f7810adfb",
+        "artist": "Fever Ray",
+        "title": "Even It Out",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ]
+      },
+      {
+        "id": "117152b6-20fc-47cc-92b2-2dcc1a3b4484",
+        "artist": "Robert Palmer",
+        "title": "Addicted to Love",
+        "year": 1985,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ]
+      },
+      {
+        "id": "ab3ded30-7545-48bd-9cab-54d8c89bac62",
+        "artist": "Du, deine Freundin und ich",
+        "title": "Roland Kaiser",
+        "year": null,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ]
+      },
+      {
+        "id": "a4b4f87f-4db9-47f2-af99-603069842c6f",
+        "artist": "All diese Gewalt",
+        "title": "Kuppel",
+        "year": 2016,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Max Rieger"
+        ]
+      },
+      {
+        "id": "a2391c2d-c4b7-4c57-99cf-d8535a5ad306",
+        "artist": "Fatoni feat. Danger Dan",
+        "title": "Danke, dass du mich verlassen hast",
+        "year": 2033,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ]
+      },
+      {
+        "id": "fc727ef3-eb4b-4ea8-9287-a09567367a1b",
+        "artist": "Death Grips",
+        "title": "You Might Think He Loves You For Your Money But I Know What He Really Loves Your Fort It‘s Your Brand News Leopard Skin Pillbox Hat",
+        "year": 2013,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Max Rieger"
+        ]
+      }
+    ]
   },
   {
     "id": "b99c81cb-9f00-4431-9b13-a459b770d876",
@@ -42,7 +522,7 @@
       "short": "22.2.2023",
       "long": "22. Februar 2023"
     },
-    "url": null,
+    "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-jakojako-berghain-resident-and-robert-henke/6664/",
     "guests": [
       "JakoJako (Berghain Resident)",
       "Robert Henke"
@@ -137,7 +617,7 @@
       "short": "17.1.2023",
       "long": "17. Januar 2023"
     },
-    "url": null,
+    "url": "https://www.deutschestheater.de/programm/a-z/popsalon-dr-klaus-lederer/",
     "guests": [
       "Klaus Lederer"
     ],
@@ -229,7 +709,7 @@
       "short": "14.12.2022",
       "long": "14. Dezember 2022"
     },
-    "url": null,
+    "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-hentschel-perkovic-zylka/6504/",
     "guests": [
       "Joachim Hentschel (Süddeutsche Zeitung)",
       "Vivian Perkovic (3sat Kulturzeit)",
@@ -487,7 +967,7 @@
       "short": "17.5.2022",
       "long": "17. Mai 2022"
     },
-    "url": null,
+    "url": "https://www.deutschestheater.de/programm/a-z/popsalon-spezial-buchpremiere/",
     "guests": [],
     "videos": []
   },
@@ -630,8 +1110,12 @@
       "short": "21.12.2021",
       "long": "21. Dezember 2021"
     },
-    "url": null,
-    "guests": [],
+    "url": "https://www.deutschestheater.de/programm/a-z/zehn-jahre-popsalon-balzer-und-mueller-laden-ein-/",
+    "guests": [
+      "Aida Baghernejad",
+      "Andreas Borcholte (Spiegel Online)",
+      "Julia Friese (Die Welt)"
+    ],
     "videos": []
   },
   {
@@ -644,7 +1128,7 @@
       "short": "19.10.2021",
       "long": "19. Oktober 2021"
     },
-    "url": null,
+    "url": "https://www.deutschestheater.de/programm/a-z/popsalon_sebastian_krumbiegel/",
     "guests": [
       "Sebastian Krumbiegel"
     ],
@@ -1624,8 +2108,25 @@
     "videos": []
   },
   {
-    "id": "a4822ad5-a917-4d2f-a50d-920ac7f226c9",
+    "id": "11cedf42-d9d8-4b68-82cb-68cf751eea44",
     "title": "",
+    "number": null,
+    "date": {
+      "date": "2016-03-15T21:00:00.000Z",
+      "iso": "2016-03-15T21:00:00.000Z",
+      "short": "15.3.2016",
+      "long": "15. März 2016"
+    },
+    "url": "https://www.deutschestheater.de/programm/a-z/popsalon_tufts/",
+    "guests": [
+      "Gayle Tufts",
+      "Susanne Burg"
+    ],
+    "videos": []
+  },
+  {
+    "id": "a4822ad5-a917-4d2f-a50d-920ac7f226c9",
+    "title": null,
     "number": 3,
     "date": {
       "date": "2016-01-12T21:00:00.000Z",
@@ -1638,7 +2139,19 @@
       "Christian Jankowski",
       "Rabea Weihser"
     ],
-    "videos": []
+    "videos": [
+      {
+        "id": "ab035381-e0c0-4863-9a32-d38ba41fb64b",
+        "artist": "Hannah Diamond",
+        "title": "Hi",
+        "year": 2015,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ]
+      }
+    ]
   },
   {
     "id": "8ebc7dfd-38c1-4a76-8aa9-621b63c70e2d",
