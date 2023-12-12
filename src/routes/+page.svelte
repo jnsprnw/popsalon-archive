@@ -6,8 +6,9 @@
 
 <div class="mx-auto max-w-3xl bg-white px-3 pt-20">
   <header class="md:px-6">
-    <h1 class="text-xl font-semibold">Popsalon Archiv</h1>
-    <h2 class="text-sm">Unvollständig und inoffiziell</h2>
+    <h1 class="text-2xl font-semibold">Popsalon Archiv</h1>
+    <h2 class="text-lg">Tobi Müller und Jens Balzer im Gespräch</h2>
+    <h3 class="text-sm">Unvollständig und inoffiziell</h3>
   </header>
   {#if data.events.length}
     <main role="list">
@@ -37,11 +38,14 @@
                 >{post.number}</span
               >{/if}
           </header>
-          {#if post.url}<a
-              class="mt-2 mb-1 inline-block border-b border-b-accent text-sm hover:text-accent"
-              href={post.url}
-              itemprop="url">Link zur Veranstaltung</a
-            >{/if}
+          <div class="flex items-center gap-x-6">
+            {#if post.url}<a
+                class="mt-2 mb-1 inline-block text-sm underline decoration-accent hover:text-accent"
+                href={post.url}
+                itemprop="url">Link zur Veranstaltung</a
+              >{/if}
+            <span class="text-sm">Deutsches Theater, Berlin</span>
+          </div>
           {#if post.guests.length || post.videos.length}
             <main>
               <dl>
