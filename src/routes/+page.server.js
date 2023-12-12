@@ -6,5 +6,5 @@ export async function load() {
   };
 }
 
-// export const csr = false;
+export const csr = false;
 export const prerender = true;
