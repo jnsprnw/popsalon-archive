@@ -8,7 +8,7 @@
 <div class="mx-auto max-w-3xl bg-white px-3 pt-20">
   <header class="md:px-6">
     <h1 class="text-2xl font-semibold">Popsalon Archiv</h1>
-    <h2 class="text-lg">Tobi Müller und Jens Balzer im Gespräch</h2>
+    <h2 class="text-lg">Tobi Müller und Jens Balzer im Deutschen Theater, Berlin</h2>
     <h3 class="text-sm">Unvollständig und inoffiziell</h3>
   </header>
   {#if data.events.length}
