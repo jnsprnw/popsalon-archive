@@ -1,5 +1,4 @@
-import * as dotenv
-  from 'dotenv'; // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
+import * as dotenv from 'dotenv'; // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 import fetch from 'node-fetch';
 
 dotenv.config();
@@ -18,7 +17,7 @@ async function fetchContent(id, start_cursor) {
     },
     body: JSON.stringify({
       page_size: 100,
-      start_cursor
+      start_cursor,
     }),
   });
 
@@ -47,7 +46,7 @@ export async function getEvents() {
     events.push(...arr);
     hasMore = response.has_more;
     start_cursor = response.results.at(-1).id;
-  } while (hasMore)
+  } while (hasMore);
   return events;
 }
 
@@ -61,7 +60,7 @@ async function getVideos() {
     videos.push(...arr);
     hasMore = response.has_more;
     start_cursor = response.results.at(-1).id;
-  } while (hasMore)
+  } while (hasMore);
   return Object.fromEntries(videos);
 }
 
@@ -120,6 +119,7 @@ export async function formatVideos(arr) {
     const rip = props.Todesfall.checkbox;
     const played = !props['Nicht gespielt'].checkbox;
     const person = props['Person'].multi_select.map(({ name }) => name);
+    const url = props.URL.url;
 
     const item = {
       id,
@@ -129,6 +129,7 @@ export async function formatVideos(arr) {
       rip,
       played,
       person,
+      url,
     };
 
     videos.push([id, item]);

@@ -1,5 +1,123 @@
 [
   {
+    "id": "0804a989-6e9b-47df-8f02-94f97b992b53",
+    "title": null,
+    "number": 57,
+    "date": {
+      "date": "2024-01-24T21:00:00.000Z",
+      "iso": "2024-01-24T21:00:00.000Z",
+      "short": "24.1.2024",
+      "long": "24. Januar 2024"
+    },
+    "url": "https://www.deutschestheater.de/programm/produktionen/popsalon-mit-malakoff-kowalski",
+    "guests": [
+      "Malakoff Kowalski (Musiker und Komponist)"
+    ],
+    "videos": []
+  },
+  {
+    "id": "80b7e033-9112-4131-8e59-032735c1a510",
+    "title": null,
+    "number": 56,
+    "date": {
+      "date": "2023-12-11T21:00:00.000Z",
+      "iso": "2023-12-11T21:00:00.000Z",
+      "short": "11.12.2023",
+      "long": "11. Dezember 2023"
+    },
+    "url": "https://www.deutschestheater.de/programm/produktionen/default-9fba2b511c94e6a9925a7e14f44ab600",
+    "guests": [
+      "Marie Serah Ebcinoglu (Missy Magazine)",
+      "Stefan Hochgesand (Berliner Zeitung)"
+    ],
+    "videos": [
+      {
+        "id": "2fe2faa1-d878-4d98-ac13-57af46a588a3",
+        "artist": "Domiziana feat. Blümchen",
+        "title": "SOS",
+        "year": 2023,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Marie Serah Ebcinoglu"
+        ],
+        "url": "https://www.youtube.com/watch?v=mlzA0R9kSTg"
+      },
+      {
+        "id": "6a8d212d-5d26-405a-af25-f864c62cf7e6",
+        "artist": "Apsilon",
+        "title": "Baba",
+        "year": 2023,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Stefan Hochgesand"
+        ],
+        "url": "https://www.youtube.com/watch?v=-pe_Kkg98zs"
+      },
+      {
+        "id": "c273b3d2-4f41-423e-9375-0b13c8a090ca",
+        "artist": "The Beatles",
+        "title": "Now & Then (Beatles-Song)",
+        "year": 2023,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ],
+        "url": "https://www.youtube.com/watch?v=Opxhh9Oh3rg"
+      },
+      {
+        "id": "51f0bb0a-d0e3-4fa6-b7e4-f41be40a6a11",
+        "artist": "Dudu Tassa & Johnny Greenwood feat. Safae Essafi",
+        "title": "Ahibak",
+        "year": 2023,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ],
+        "url": "https://www.youtube.com/watch?v=MCUHSfenViQ"
+      },
+      {
+        "id": "99a5cfa0-1889-4233-a1ab-05ccefd2105e",
+        "artist": "Dua Lipa",
+        "title": "Dance the Night (Barbie Soundtrack)",
+        "year": 2023,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Marie Serah Ebcinoglu"
+        ],
+        "url": "https://www.youtube.com/watch?v=OiC1rgCPmUQ"
+      },
+      {
+        "id": "1b376e06-9480-4f57-946b-96ba4e8b24fb",
+        "artist": "Troye Sivan",
+        "title": "Rush",
+        "year": 2023,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Stefan Hochgesand"
+        ],
+        "url": "https://www.youtube.com/watch?v=b53QJYP-lqY"
+      },
+      {
+        "id": "ecba53f2-c8b4-4b0a-a0d9-e52866bec972",
+        "artist": "Rex the Dog",
+        "title": "Change this pain for ecstasy ",
+        "year": 2023,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ],
+        "url": "https://www.youtube.com/watch?v=clwaQKgT4iA"
+      }
+    ]
+  },
+  {
     "id": "0087c16e-b797-4719-b589-088f991acecb",
     "title": null,
     "number": 55,
@@ -23,7 +141,8 @@
         "played": true,
         "person": [
           "Peter Urban"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "f175874d-7256-458f-889b-ee50703267c8",
@@ -34,7 +153,8 @@
         "played": true,
         "person": [
           "Peter Urban"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "fc86651d-fcd5-464c-8109-69307660510e",
@@ -45,7 +165,8 @@
         "played": true,
         "person": [
           "Jens Balzer"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "e1ca29eb-a1c4-426b-b6a3-9da4af012861",
@@ -56,7 +177,8 @@
         "played": true,
         "person": [
           "Tobi Müller"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "6696c0fa-c5cc-4568-9f6e-37cdfd47ce39",
@@ -67,7 +189,8 @@
         "played": true,
         "person": [
           "Peter Urban"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "64212244-2b3d-4945-a75c-09272216dea9",
@@ -78,7 +201,8 @@
         "played": true,
         "person": [
           "Peter Urban"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "eb302609-2ae6-4d3c-a7ba-e9661bd94b07",
@@ -89,7 +213,8 @@
         "played": true,
         "person": [
           "Tobi Müller"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "a5b2626d-9e0c-49b6-b5da-7a8092cf2c72",
@@ -100,7 +225,8 @@
         "played": false,
         "person": [
           "Tobi Müller"
-        ]
+        ],
+        "url": null
       }
     ]
   },
@@ -130,7 +256,8 @@
         "played": true,
         "person": [
           "Silvia Silko"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "381b6db8-04f6-4b63-af78-def246617091",
@@ -141,7 +268,8 @@
         "played": true,
         "person": [
           "Sebastian Zabel"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "b9ea2757-3794-404a-8d2b-abd7f2323c42",
@@ -152,7 +280,8 @@
         "played": true,
         "person": [
           "Andreas Borcholte"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "ee278303-a0e1-46f8-b54f-3f6bd80a251a",
@@ -163,7 +292,8 @@
         "played": true,
         "person": [
           "Jens Balzer"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "5777ca22-e985-459b-a909-206c0af123ea",
@@ -174,7 +304,8 @@
         "played": true,
         "person": [
           "Tobi Müller"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "3b052905-82d1-4032-840d-1cb9bd4dcc36",
@@ -185,7 +316,8 @@
         "played": true,
         "person": [
           "Silvia Silko"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "191d2d7e-551f-4d59-a900-f85b1daa0f4e",
@@ -194,7 +326,8 @@
         "year": 1985,
         "rip": true,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       }
     ]
   },
@@ -222,7 +355,8 @@
         "played": true,
         "person": [
           "Yuriy Gurzhy"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "ea1d11b6-cc7b-4d30-ab02-777144f3cb69",
@@ -233,7 +367,8 @@
         "played": true,
         "person": [
           "Yuriy Gurzhy"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "e7d954a5-d415-4ebe-897c-f4dcf7995d08",
@@ -244,7 +379,8 @@
         "played": true,
         "person": [
           "Jens Balzer"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "1aee9eec-87d5-4817-a956-cc4a8e6fb22d",
@@ -255,7 +391,8 @@
         "played": true,
         "person": [
           "Tobi Müller"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "d2093712-6515-4e6c-a424-e4030d0822bc",
@@ -266,7 +403,8 @@
         "played": true,
         "person": [
           "Yuriy Gurzhy"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "df72aea8-77de-4970-9d35-427d2638d1cc",
@@ -277,7 +415,8 @@
         "played": true,
         "person": [
           "Jens Balzer"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "0659e3a4-e52f-44b7-8a94-24a10feae11a",
@@ -288,7 +427,8 @@
         "played": false,
         "person": [
           "Tobi Müller"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "d02069e3-e95e-44a6-89b0-f34d6f55167b",
@@ -299,7 +439,8 @@
         "played": true,
         "person": [
           "Tobi Müller"
-        ]
+        ],
+        "url": null
       }
     ]
   },
@@ -328,7 +469,8 @@
         "played": true,
         "person": [
           "Gudrun Gut"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "f2c944c1-9a5d-44d9-bb2c-888b3e427eb9",
@@ -339,7 +481,8 @@
         "played": true,
         "person": [
           "Ulrich Gutmair"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "35feca8e-3931-4aef-80e6-9796735144ea",
@@ -350,7 +493,8 @@
         "played": true,
         "person": [
           "Tobi Müller"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "64740026-7f16-4f82-8fe8-efe75c237552",
@@ -361,7 +505,8 @@
         "played": true,
         "person": [
           "Jens Balzer"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "ad19d777-0841-4cb9-b818-aa5241f87b3a",
@@ -372,7 +517,8 @@
         "played": true,
         "person": [
           "Gudrun Gut"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "65b941f1-bd3f-44d9-9c6b-e2689eec57f4",
@@ -381,7 +527,8 @@
         "year": 1981,
         "rip": false,
         "played": false,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "5cb3f757-3986-4655-9e45-05a6626fcc7f",
@@ -392,7 +539,8 @@
         "played": true,
         "person": [
           "Ulrich Gutmair"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "17a7f8b9-2ab0-4a5f-8063-947d124e89dd",
@@ -403,7 +551,8 @@
         "played": true,
         "person": [
           "Jens Balzer"
-        ]
+        ],
+        "url": null
       }
     ]
   },
@@ -431,7 +580,8 @@
         "played": true,
         "person": [
           "Jens Balzer"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "269f98e8-81b6-48b6-9d50-3268fd171bd4",
@@ -442,7 +592,8 @@
         "played": true,
         "person": [
           "Max Rieger"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "e9d8a43c-9b71-42f4-b875-5c0f7810adfb",
@@ -453,7 +604,8 @@
         "played": true,
         "person": [
           "Tobi Müller"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "117152b6-20fc-47cc-92b2-2dcc1a3b4484",
@@ -464,7 +616,8 @@
         "played": true,
         "person": [
           "Tobi Müller"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "ab3ded30-7545-48bd-9cab-54d8c89bac62",
@@ -475,7 +628,8 @@
         "played": true,
         "person": [
           "Jens Balzer"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "a4b4f87f-4db9-47f2-af99-603069842c6f",
@@ -486,7 +640,8 @@
         "played": true,
         "person": [
           "Max Rieger"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "a2391c2d-c4b7-4c57-99cf-d8535a5ad306",
@@ -497,7 +652,8 @@
         "played": true,
         "person": [
           "Tobi Müller"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "fc727ef3-eb4b-4ea8-9287-a09567367a1b",
@@ -508,7 +664,8 @@
         "played": true,
         "person": [
           "Max Rieger"
-        ]
+        ],
+        "url": null
       }
     ]
   },
@@ -537,7 +694,8 @@
         "played": true,
         "person": [
           "JakoJako"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "9046a7ca-dc93-4a68-a2b5-2a2abbda09ae",
@@ -548,7 +706,8 @@
         "played": true,
         "person": [
           "Robert Henke"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "1dc6bf04-16d9-4fd5-b472-f5f11d1265f7",
@@ -559,7 +718,8 @@
         "played": true,
         "person": [
           "Jens Balzer"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "03819016-91fe-4bc4-a436-45708c3458a1",
@@ -570,7 +730,8 @@
         "played": true,
         "person": [
           "Tobi Müller"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "243163e1-cf03-41df-9dfe-4fd33afef20d",
@@ -581,7 +742,8 @@
         "played": true,
         "person": [
           "JakoJako"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "a33313ca-836b-44b2-9c8e-c61d3f8510e3",
@@ -592,7 +754,8 @@
         "played": true,
         "person": [
           "Robert Henke"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "065a8a61-5a44-45b6-a7f2-53d79f74c9fe",
@@ -603,7 +766,8 @@
         "played": true,
         "person": [
           "Jens Balzer"
-        ]
+        ],
+        "url": null
       }
     ]
   },
@@ -631,7 +795,8 @@
         "played": true,
         "person": [
           "Klaus Lederer"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "7dc1f60a-1974-43ca-9dc9-b83e177f0778",
@@ -642,7 +807,8 @@
         "played": true,
         "person": [
           "Klaus Lederer"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "5e884a50-dcb2-42a3-a824-52159b866486",
@@ -653,7 +819,8 @@
         "played": true,
         "person": [
           "Jens Balzer"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "67ff29d1-e370-4618-b6d8-1859f9e46333",
@@ -664,7 +831,8 @@
         "played": true,
         "person": [
           "Tobi Müller"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "f06be337-83ef-4fc7-bdc0-48bfcb4b86b3",
@@ -675,7 +843,8 @@
         "played": true,
         "person": [
           "Klaus Lederer"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "5a1f1ab9-4706-4725-ba6a-50e80e2ad595",
@@ -686,7 +855,8 @@
         "played": true,
         "person": [
           "Jens Balzer"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "a49f02fb-af7a-43b6-8a92-ba93dbc4bf7a",
@@ -695,7 +865,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       }
     ]
   },
@@ -725,7 +896,8 @@
         "played": true,
         "person": [
           "Vivian Perkovic"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "4bf874d0-9a40-4f41-ae38-2da4c1e865e5",
@@ -736,7 +908,8 @@
         "played": true,
         "person": [
           "Joachim Hentschel"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "a2393ca2-687b-44ca-8d21-5b42b7a26ee0",
@@ -747,7 +920,8 @@
         "played": true,
         "person": [
           "Jenni Zylka"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "f7303a8b-b3be-451c-85d6-394d861061ac",
@@ -758,7 +932,8 @@
         "played": false,
         "person": [
           "Jens Balzer"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "d2daa240-c8e6-455a-b537-5d9e5d194da1",
@@ -769,7 +944,8 @@
         "played": false,
         "person": [
           "Tobi Müller"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "ac67bc1a-3f0d-4ec3-bb05-0d7eb89f606b",
@@ -780,7 +956,8 @@
         "played": true,
         "person": [
           "Vivian Perkovic"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "ba11b6e0-13d6-484c-9c33-353951266d29",
@@ -791,7 +968,8 @@
         "played": true,
         "person": [
           "Joachim Hentschel"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "c7d71947-4ce5-4748-9804-4f7dda0b47b4",
@@ -802,7 +980,8 @@
         "played": true,
         "person": [
           "Jenni Zylka"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "190744fc-2c2d-4aed-a83b-6f0060bab813",
@@ -813,7 +992,8 @@
         "played": true,
         "person": [
           "Jens Balzer"
-        ]
+        ],
+        "url": null
       }
     ]
   },
@@ -841,7 +1021,8 @@
         "played": true,
         "person": [
           "Drangsal"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "6ab1e276-f1e6-44c8-a12c-c0b6f0c72b45",
@@ -852,7 +1033,8 @@
         "played": true,
         "person": [
           "Drangsal"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "96e365e3-09e6-482f-af34-a1441ac5363d",
@@ -863,7 +1045,8 @@
         "played": true,
         "person": [
           "Tobi Müller"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "36336452-3f7a-4767-9bec-372c8cdeed61",
@@ -874,7 +1057,8 @@
         "played": true,
         "person": [
           "Jens Balzer"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "64cb8020-c3fb-4bbd-8be8-59a5e2ea1ca5",
@@ -883,7 +1067,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "d45ccc64-5a50-4b97-ae34-32e0fd03628d",
@@ -894,7 +1079,8 @@
         "played": true,
         "person": [
           "Tobi Müller"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "44f622e0-b160-4d26-a3b0-a776ecbbaa36",
@@ -903,7 +1089,8 @@
         "year": 1995,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       }
     ]
   },
@@ -1013,7 +1200,8 @@
         "played": true,
         "person": [
           "Marion Barsch"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "cf78ca28-8fbc-45a2-823e-82e7f8860710",
@@ -1024,7 +1212,8 @@
         "played": true,
         "person": [
           "Hendrik Bolz"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "1cde3779-6e82-4b6f-b1ef-9c7d691beba5",
@@ -1035,7 +1224,8 @@
         "played": true,
         "person": [
           "Marion Barsch"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "496a5446-096d-42af-9246-692050933af5",
@@ -1046,7 +1236,8 @@
         "played": true,
         "person": [
           "Hendrik Bolz"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "246b2f5b-3ca6-4e27-895e-d6912d8c7603",
@@ -1057,7 +1248,8 @@
         "played": true,
         "person": [
           "Jens Balzer"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "4a79585e-5c70-4028-a0a7-ff0bf6c5f545",
@@ -1068,7 +1260,8 @@
         "played": true,
         "person": [
           "Tobi Müller"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "78cbb7e9-b20d-44c1-aa95-907166882209",
@@ -1079,7 +1272,8 @@
         "played": true,
         "person": [
           "Tobi Müller"
-        ]
+        ],
+        "url": null
       }
     ]
   },
@@ -1236,7 +1430,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "9186de2a-c26a-4473-9b77-e2976ce301bf",
@@ -1245,7 +1440,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "edc96cd0-6298-49d9-b3a2-7dcbf826f41a",
@@ -1254,7 +1450,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "43bcbfdb-8200-42e8-aee1-8ad4626f4129",
@@ -1263,7 +1460,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "df15a739-7f1f-4542-9c13-869b6e1a0f6f",
@@ -1272,7 +1470,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "cc1bb7c4-a751-46f9-846d-1817ffcc1707",
@@ -1281,7 +1480,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "6e568fc7-e8aa-4ef9-9f11-f6b510bf9b76",
@@ -1290,7 +1490,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "1b45a502-2278-4e12-bb52-ccda8cb1f1d8",
@@ -1299,7 +1500,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       }
     ]
   },
@@ -1326,7 +1528,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "5c95b0e6-ac19-47a5-91d8-ebd9207afa07",
@@ -1335,7 +1538,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "b88d0858-f93b-41cb-b58a-f9a37d534c07",
@@ -1344,7 +1548,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "3ffad897-4fae-406e-90c8-f36745d6e377",
@@ -1353,7 +1558,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "05b2b3f6-bc6e-4a6d-b369-77c76b7904ba",
@@ -1362,7 +1568,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "2e59a4df-6c0a-45ea-a885-b8c987d78f28",
@@ -1371,7 +1578,8 @@
         "year": 1975,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "744feda3-f013-4f99-8d11-9c4e766b8d24",
@@ -1380,7 +1588,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       }
     ]
   },
@@ -1408,7 +1617,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "ba6551f1-b1d0-4736-be3f-3a72388e91d1",
@@ -1417,7 +1627,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "61f00854-80f3-4ba6-94ab-ec83dcc455ad",
@@ -1426,7 +1637,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "843b9902-458a-4928-8723-6779d75876da",
@@ -1435,7 +1647,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "80e5c88d-1af8-45bf-8d8a-52acf4ccfefa",
@@ -1444,7 +1657,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "f82d4f24-ce04-4384-88d6-73dfec55a61a",
@@ -1453,7 +1667,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "ef0a418f-8f03-4162-afb8-6b9402159c15",
@@ -1462,7 +1677,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "bf91e0e0-0c71-4c82-8bec-44d58cccab61",
@@ -1471,7 +1687,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       }
     ]
   },
@@ -1498,7 +1715,8 @@
         "year": 1994,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "546ce164-3634-4b6f-9c5b-e4d234a6b7ea",
@@ -1507,7 +1725,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "88ee0073-f192-4d93-8b51-5aa1a9b34edc",
@@ -1516,7 +1735,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "bc16edb0-65d7-4c44-aa74-ae20c66a03d3",
@@ -1525,7 +1745,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "e9fc2dbc-29fe-4da3-8853-8c70a6e8c7b6",
@@ -1534,7 +1755,8 @@
         "year": 1979,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "351a7daf-026c-42c4-85a8-cc9f74b54d7a",
@@ -1543,7 +1765,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "3b3bbfe6-d39d-44fb-85a4-fc958c8e0f0b",
@@ -1554,7 +1777,8 @@
         "played": true,
         "person": [
           "Jens Balzer"
-        ]
+        ],
+        "url": null
       },
       {
         "id": "2d1ca5f5-77d7-4421-85a6-fa7f2a23bed9",
@@ -1565,7 +1789,8 @@
         "played": true,
         "person": [
           "Tobi Müller"
-        ]
+        ],
+        "url": null
       }
     ]
   },
@@ -1660,7 +1885,8 @@
         "played": true,
         "person": [
           "Jens Balzer"
-        ]
+        ],
+        "url": null
       }
     ]
   },
@@ -1873,7 +2099,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "61179bdb-c345-40a4-bb83-69381910574b",
@@ -1882,7 +2109,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "18582687-4b24-4678-97db-b8cb82b08b60",
@@ -1891,7 +2119,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "6cda4af1-9779-4b31-8e74-629fe6da57c1",
@@ -1900,7 +2129,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "1c4195a3-327a-4131-ac01-f95e7c420070",
@@ -1909,7 +2139,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       },
       {
         "id": "73b5f612-2a4d-48b7-b1f0-48534135e786",
@@ -1918,7 +2149,8 @@
         "year": null,
         "rip": false,
         "played": true,
-        "person": []
+        "person": [],
+        "url": null
       }
     ]
   },
@@ -2149,7 +2381,8 @@
         "played": true,
         "person": [
           "Jens Balzer"
-        ]
+        ],
+        "url": null
       }
     ]
   },
