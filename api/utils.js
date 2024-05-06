@@ -36,6 +36,10 @@ const dateFormatterLong = new Intl.DateTimeFormat('de-DE', {
   day: 'numeric',
 }).format;
 
+const dateDay = new Intl.DateTimeFormat('de-DE', {
+  weekday: 'long',
+}).format;
+
 export async function getEvents() {
   let hasMore = false;
   let start_cursor = undefined;
@@ -90,6 +94,7 @@ export async function formatEvents(arr) {
         iso: date.toISOString(),
         short: dateFormatter(date),
         long: dateFormatterLong(date),
+        day: dateDay(date),
       },
       url,
       guests,

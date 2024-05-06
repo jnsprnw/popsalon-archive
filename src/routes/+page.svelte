@@ -46,6 +46,7 @@
                 itemprop="url">Link zur Veranstaltung</a
               >{/if}
             <span class="text-sm">Deutsches Theater, Berlin</span>
+            <span class="text-sm">{post.date.day}</span>
           </div>
           {#if post.guests.length || post.videos.length}
             <main>
