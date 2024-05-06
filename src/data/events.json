@@ -1,29 +1,360 @@
 [
   {
+    "id": "456133be-34fa-46ec-89e0-e7599b8dd562",
+    "title": null,
+    "number": 60,
+    "date": {
+      "date": "2024-06-10T19:00:00.000Z",
+      "iso": "2024-06-10T19:00:00.000Z",
+      "short": "10.6.2024",
+      "long": "10. Juni 2024",
+      "day": "Montag"
+    },
+    "url": "https://www.deutschestheater.de/programm/produktionen/popsalon-juni-2024",
+    "guests": [
+      "Fatma Aydemir (Autorin von Doktormutter Faust)"
+    ],
+    "videos": []
+  },
+  {
+    "id": "ff061308-ce3f-4ca2-afeb-e1a81f36c562",
+    "title": null,
+    "number": 59,
+    "date": {
+      "date": "2024-05-02T19:00:00.000Z",
+      "iso": "2024-05-02T19:00:00.000Z",
+      "short": "2.5.2024",
+      "long": "2. Mai 2024",
+      "day": "Donnerstag"
+    },
+    "url": null,
+    "guests": [
+      "Diedrich Diederichsen"
+    ],
+    "videos": [
+      {
+        "id": "8383bad3-223c-4b22-8d41-87e859b666d1",
+        "artist": "C. Tangana, Niño de Elche, La Hungara",
+        "title": "Tú Me Dejaste De Querer",
+        "year": 2021,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Diedrich Diederichsen"
+        ],
+        "url": "https://www.youtube.com/watch?v=ltmO9XQVdSg"
+      },
+      {
+        "id": "94535949-04dd-4692-8cb7-04c49c4d848f",
+        "artist": "Lee Ranaldo & Raül Refree",
+        "title": "Light Years Out",
+        "year": 2020,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Diedrich Diederichsen"
+        ],
+        "url": "https://www.youtube.com/watch?v=ntV31UC-EOU"
+      },
+      {
+        "id": "7ae8af49-4d1c-4dfd-b043-552849ea6a0a",
+        "artist": "Taylor Swift",
+        "title": "Fortnight (feat. Post Malone)",
+        "year": 2024,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ],
+        "url": "https://www.youtube.com/watch?v=q3zqJs7JUCQ"
+      },
+      {
+        "id": "79bae23a-a13a-46c0-9be6-adc872f518a4",
+        "artist": "Fontaines D.C.",
+        "title": "Starburster",
+        "year": 2024,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ],
+        "url": "https://www.youtube.com/watch?v=KHocVRUlvkk"
+      },
+      {
+        "id": "56c56020-b919-49bd-9865-f60c31cdb192",
+        "artist": "Niño de Elche",
+        "title": "El Comunista",
+        "year": 2016,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Diedrich Diederichsen"
+        ],
+        "url": "https://www.youtube.com/watch?v=BgRIG2jWxr4"
+      },
+      {
+        "id": "65c9a155-8f93-433e-9179-cf191cf4e1d2",
+        "artist": "Alice Coltrane",
+        "title": "Journey In Satchidananda (Live at Carnegie Hall, NYC)",
+        "year": 1971,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ],
+        "url": "https://www.youtube.com/watch?v=_Jie_usHtes"
+      },
+      {
+        "id": "244403d8-a0f4-479a-872b-bea7ae4cf989",
+        "artist": "Pedal Steel Noah",
+        "title": "Love Will Tear Us Apart",
+        "year": 2023,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ],
+        "url": "https://www.youtube.com/watch?v=ZBOszKKnpbo"
+      },
+      {
+        "id": "4e0f1f39-b3c1-41af-8d98-11f2b72ba641",
+        "artist": "Shabaka Hutchings",
+        "title": "End of Innocence",
+        "year": 2024,
+        "rip": false,
+        "played": false,
+        "person": [],
+        "url": "https://www.youtube.com/watch?v=d1X9Q6kGwew"
+      }
+    ]
+  },
+  {
+    "id": "2790855e-dfb3-43d1-b369-66396d20ecda",
+    "title": null,
+    "number": 58,
+    "date": {
+      "date": "2024-03-04T20:00:00.000Z",
+      "iso": "2024-03-04T20:00:00.000Z",
+      "short": "4.3.2024",
+      "long": "4. März 2024",
+      "day": "Montag"
+    },
+    "url": "https://www.deutschestheater.de/programm/produktionen/popsalon-maerz",
+    "guests": [
+      "Charlotte Brandi",
+      "Nichtseattle / Katharina Kollmann"
+    ],
+    "videos": [
+      {
+        "id": "85c70516-76be-462e-932b-509d7161b807",
+        "artist": "Frau",
+        "title": "Charlotte Brandi",
+        "year": 2023,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Charlotte Brandi"
+        ],
+        "url": null
+      },
+      {
+        "id": "1baad397-2e1e-4f06-a7dc-1ab7e5924884",
+        "artist": "Nantes",
+        "title": "Beirut",
+        "year": 2007,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Nichtseattle / Katharina Kollmann"
+        ],
+        "url": null
+      },
+      {
+        "id": "8ed4b806-0b25-4873-9d29-ff6c93612cac",
+        "artist": "Frau sein (Werkstatt)",
+        "title": "Nichtseattle",
+        "year": 2024,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Nichtseattle / Katharina Kollmann"
+        ],
+        "url": null
+      },
+      {
+        "id": "4d8e055e-fcd7-40f6-94b2-7b34c0378f1e",
+        "artist": "Texas Hold ’em",
+        "title": "Boyoncé",
+        "year": 2024,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ],
+        "url": null
+      },
+      {
+        "id": "ac1264d4-229a-4467-bb38-65c36b290701",
+        "artist": "Broken Man",
+        "title": "St. Vincent",
+        "year": 2024,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ],
+        "url": null
+      },
+      {
+        "id": "7fa053ff-abe2-4456-a860-ee82ef623383",
+        "artist": "Erregung",
+        "title": "Kiez.E",
+        "year": 2024,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Nichtseattle / Katharina Kollmann"
+        ],
+        "url": null
+      },
+      {
+        "id": "02661e73-4264-4058-bdfb-f08b55079623",
+        "artist": "I‘m a Man",
+        "title": "Kim Gordon",
+        "year": 2024,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ],
+        "url": null
+      },
+      {
+        "id": "bcaf301a-88f3-4549-84c1-6ef667c1c7a1",
+        "artist": "Das bisschen Haushalt",
+        "title": "Johanna von Koczian",
+        "year": 1977,
+        "rip": true,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ],
+        "url": null
+      }
+    ]
+  },
+  {
     "id": "0804a989-6e9b-47df-8f02-94f97b992b53",
     "title": null,
     "number": 57,
     "date": {
-      "date": "2024-01-24T21:00:00.000Z",
-      "iso": "2024-01-24T21:00:00.000Z",
+      "date": "2024-01-24T20:00:00.000Z",
+      "iso": "2024-01-24T20:00:00.000Z",
       "short": "24.1.2024",
-      "long": "24. Januar 2024"
+      "long": "24. Januar 2024",
+      "day": "Mittwoch"
     },
     "url": "https://www.deutschestheater.de/programm/produktionen/popsalon-mit-malakoff-kowalski",
     "guests": [
       "Malakoff Kowalski (Musiker und Komponist)"
     ],
-    "videos": []
+    "videos": [
+      {
+        "id": "bff5d86e-8df0-4277-8b29-581e2a0f2dad",
+        "artist": "Malakoff Kowalski",
+        "title": "Andere Leute",
+        "year": 2009,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Malakoff Kowalski"
+        ],
+        "url": "https://www.youtube.com/watch?v=c8r33w1XYEs"
+      },
+      {
+        "id": "5cc2f883-6f25-4b6e-a23b-0bc7e9ae88b1",
+        "artist": "Justice",
+        "title": "Stress",
+        "year": 2008,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Malakoff Kowalski"
+        ],
+        "url": "https://www.youtube.com/watch?v=QWaWsgBbFsA"
+      },
+      {
+        "id": "2f975d51-11b9-4fc6-a8c5-0c921419a4a9",
+        "artist": "Lil Nas X",
+        "title": "J Christ",
+        "year": 2024,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ],
+        "url": "https://www.youtube.com/watch?v=dCrQeUaXkLo"
+      },
+      {
+        "id": "f603a4b6-62a0-475c-a892-8ad6c0514b25",
+        "artist": "Jungeli feat. Imen Es, Alonzo, Abou Debeing & Lossa",
+        "title": "Petit Génie",
+        "year": 2023,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ],
+        "url": "https://www.youtube.com/watch?v=Q3RR6ffTTBw"
+      },
+      {
+        "id": "198627f7-3857-45d1-a2fc-a40915d5936d",
+        "artist": "Lev Oborin",
+        "title": "Oktober, Die Jahreszeiten, Tschaikowski",
+        "year": 1971,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Malakoff Kowalski"
+        ],
+        "url": "https://www.youtube.com/watch?v=fm3--ZdrIsQ"
+      },
+      {
+        "id": "43c6266d-b1cc-475c-a9ad-973d9a8a4ed7",
+        "artist": "Frank Farian",
+        "title": "Boney M.: Daddy Cool",
+        "year": 1976,
+        "rip": true,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ],
+        "url": null
+      },
+      {
+        "id": "e78a2c5a-0ca8-48a0-b2fa-2dfb7b88a6dd",
+        "artist": "Khruanbin",
+        "title": "A Love International",
+        "year": 2023,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ],
+        "url": "https://www.youtube.com/watch?v=2e4oRKhilhA"
+      }
+    ]
   },
   {
     "id": "80b7e033-9112-4131-8e59-032735c1a510",
     "title": null,
     "number": 56,
     "date": {
-      "date": "2023-12-11T21:00:00.000Z",
-      "iso": "2023-12-11T21:00:00.000Z",
+      "date": "2023-12-11T20:00:00.000Z",
+      "iso": "2023-12-11T20:00:00.000Z",
       "short": "11.12.2023",
-      "long": "11. Dezember 2023"
+      "long": "11. Dezember 2023",
+      "day": "Montag"
     },
     "url": "https://www.deutschestheater.de/programm/produktionen/default-9fba2b511c94e6a9925a7e14f44ab600",
     "guests": [
@@ -122,10 +453,11 @@
     "title": null,
     "number": 55,
     "date": {
-      "date": "2023-10-04T20:00:00.000Z",
-      "iso": "2023-10-04T20:00:00.000Z",
+      "date": "2023-10-04T19:00:00.000Z",
+      "iso": "2023-10-04T19:00:00.000Z",
       "short": "4.10.2023",
-      "long": "4. Oktober 2023"
+      "long": "4. Oktober 2023",
+      "day": "Mittwoch"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon/7199/",
     "guests": [
@@ -235,10 +567,11 @@
     "title": null,
     "number": 54,
     "date": {
-      "date": "2023-06-07T20:00:00.000Z",
-      "iso": "2023-06-07T20:00:00.000Z",
+      "date": "2023-06-07T19:00:00.000Z",
+      "iso": "2023-06-07T19:00:00.000Z",
       "short": "7.6.2023",
-      "long": "7. Juni 2023"
+      "long": "7. Juni 2023",
+      "day": "Mittwoch"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-andreas-borcholte-spiegel-silvia-silko-tagesspiegel-sebastian-zabel-rolling-stone/7065/",
     "guests": [
@@ -336,10 +669,11 @@
     "title": null,
     "number": 53,
     "date": {
-      "date": "2023-05-19T20:00:00.000Z",
-      "iso": "2023-05-19T20:00:00.000Z",
+      "date": "2023-05-19T19:00:00.000Z",
+      "iso": "2023-05-19T19:00:00.000Z",
       "short": "19.5.2023",
-      "long": "19. Mai 2023"
+      "long": "19. Mai 2023",
+      "day": "Freitag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-yuriy-gurzhy/6985/",
     "guests": [
@@ -449,10 +783,11 @@
     "title": null,
     "number": 52,
     "date": {
-      "date": "2023-04-20T20:00:00.000Z",
-      "iso": "2023-04-20T20:00:00.000Z",
+      "date": "2023-04-20T19:00:00.000Z",
+      "iso": "2023-04-20T19:00:00.000Z",
       "short": "20.4.2023",
-      "long": "20. April 2023"
+      "long": "20. April 2023",
+      "day": "Donnerstag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-gudrun-gut-und-ulrich-gutmair/6869/",
     "guests": [
@@ -561,10 +896,11 @@
     "title": null,
     "number": 51,
     "date": {
-      "date": "2023-03-21T21:00:00.000Z",
-      "iso": "2023-03-21T21:00:00.000Z",
+      "date": "2023-03-21T20:00:00.000Z",
+      "iso": "2023-03-21T20:00:00.000Z",
       "short": "21.3.2023",
-      "long": "21. März 2023"
+      "long": "21. März 2023",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-max-rieger/6768/",
     "guests": [
@@ -674,10 +1010,11 @@
     "title": null,
     "number": 50,
     "date": {
-      "date": "2023-02-22T21:00:00.000Z",
-      "iso": "2023-02-22T21:00:00.000Z",
+      "date": "2023-02-22T20:00:00.000Z",
+      "iso": "2023-02-22T20:00:00.000Z",
       "short": "22.2.2023",
-      "long": "22. Februar 2023"
+      "long": "22. Februar 2023",
+      "day": "Mittwoch"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-jakojako-berghain-resident-and-robert-henke/6664/",
     "guests": [
@@ -776,10 +1113,11 @@
     "title": null,
     "number": 49,
     "date": {
-      "date": "2023-01-17T21:00:00.000Z",
-      "iso": "2023-01-17T21:00:00.000Z",
+      "date": "2023-01-17T20:00:00.000Z",
+      "iso": "2023-01-17T20:00:00.000Z",
       "short": "17.1.2023",
-      "long": "17. Januar 2023"
+      "long": "17. Januar 2023",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon-dr-klaus-lederer/",
     "guests": [
@@ -875,10 +1213,11 @@
     "title": null,
     "number": 48,
     "date": {
-      "date": "2022-12-14T21:00:00.000Z",
-      "iso": "2022-12-14T21:00:00.000Z",
+      "date": "2022-12-14T20:00:00.000Z",
+      "iso": "2022-12-14T20:00:00.000Z",
       "short": "14.12.2022",
-      "long": "14. Dezember 2022"
+      "long": "14. Dezember 2022",
+      "day": "Mittwoch"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-hentschel-perkovic-zylka/6504/",
     "guests": [
@@ -1002,10 +1341,11 @@
     "title": null,
     "number": 47,
     "date": {
-      "date": "2022-11-15T21:00:00.000Z",
-      "iso": "2022-11-15T21:00:00.000Z",
+      "date": "2022-11-15T20:00:00.000Z",
+      "iso": "2022-11-15T20:00:00.000Z",
       "short": "15.11.2022",
-      "long": "15. November 2022"
+      "long": "15. November 2022",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-drangsal-max-gruber/6380/",
     "guests": [
@@ -1099,10 +1439,11 @@
     "title": null,
     "number": 46,
     "date": {
-      "date": "2022-10-11T20:00:00.000Z",
-      "iso": "2022-10-11T20:00:00.000Z",
+      "date": "2022-10-11T19:00:00.000Z",
+      "iso": "2022-10-11T19:00:00.000Z",
       "short": "11.10.2022",
-      "long": "11. Oktober 2022"
+      "long": "11. Oktober 2022",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-laura-aha-laura-ewert/6289/",
     "guests": [
@@ -1116,10 +1457,11 @@
     "title": null,
     "number": 45,
     "date": {
-      "date": "2022-09-27T20:00:00.000Z",
-      "iso": "2022-09-27T20:00:00.000Z",
+      "date": "2022-09-27T19:00:00.000Z",
+      "iso": "2022-09-27T19:00:00.000Z",
       "short": "27.9.2022",
-      "long": "27. September 2022"
+      "long": "27. September 2022",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon-eric-pfeil/",
     "guests": [
@@ -1132,10 +1474,11 @@
     "title": null,
     "number": 44,
     "date": {
-      "date": "2022-06-21T20:00:00.000Z",
-      "iso": "2022-06-21T20:00:00.000Z",
+      "date": "2022-06-21T19:00:00.000Z",
+      "iso": "2022-06-21T19:00:00.000Z",
       "short": "21.6.2022",
-      "long": "21. Juni 2022"
+      "long": "21. Juni 2022",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-winson-und-ueli-haefliger/6177/",
     "guests": [
@@ -1149,10 +1492,11 @@
     "title": "Popsalon Spezial: Buchpremiere Jens Balzer \"Schmalz und Rebellion”",
     "number": 43,
     "date": {
-      "date": "2022-05-17T20:00:00.000Z",
-      "iso": "2022-05-17T20:00:00.000Z",
+      "date": "2022-05-17T19:00:00.000Z",
+      "iso": "2022-05-17T19:00:00.000Z",
       "short": "17.5.2022",
-      "long": "17. Mai 2022"
+      "long": "17. Mai 2022",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon-spezial-buchpremiere/",
     "guests": [],
@@ -1163,10 +1507,11 @@
     "title": null,
     "number": 42,
     "date": {
-      "date": "2022-04-27T20:00:00.000Z",
-      "iso": "2022-04-27T20:00:00.000Z",
+      "date": "2022-04-27T19:00:00.000Z",
+      "iso": "2022-04-27T19:00:00.000Z",
       "short": "27.4.2022",
-      "long": "27. April 2022"
+      "long": "27. April 2022",
+      "day": "Mittwoch"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-otremba-doyle/5955/",
     "guests": [
@@ -1180,10 +1525,11 @@
     "title": null,
     "number": 41,
     "date": {
-      "date": "2022-03-01T21:00:00.000Z",
-      "iso": "2022-03-01T21:00:00.000Z",
+      "date": "2022-03-01T20:00:00.000Z",
+      "iso": "2022-03-01T20:00:00.000Z",
       "short": "1.3.2022",
-      "long": "1. März 2022"
+      "long": "1. März 2022",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon-marion-brasch-hendrik-bolz/",
     "guests": [
@@ -1282,10 +1628,11 @@
     "title": null,
     "number": 40,
     "date": {
-      "date": "2022-01-11T21:00:00.000Z",
-      "iso": "2022-01-11T21:00:00.000Z",
+      "date": "2022-01-11T20:00:00.000Z",
+      "iso": "2022-01-11T20:00:00.000Z",
       "short": "11.1.2022",
-      "long": "11. Januar 2022"
+      "long": "11. Januar 2022",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon-albertine-sarges-pamela-schobess/",
     "guests": [
@@ -1299,10 +1646,11 @@
     "title": "Zehn Jahre Popsalon",
     "number": 39,
     "date": {
-      "date": "2021-12-21T21:00:00.000Z",
-      "iso": "2021-12-21T21:00:00.000Z",
+      "date": "2021-12-21T20:00:00.000Z",
+      "iso": "2021-12-21T20:00:00.000Z",
       "short": "21.12.2021",
-      "long": "21. Dezember 2021"
+      "long": "21. Dezember 2021",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/zehn-jahre-popsalon-balzer-und-mueller-laden-ein-/",
     "guests": [
@@ -1317,10 +1665,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2021-10-19T20:00:00.000Z",
-      "iso": "2021-10-19T20:00:00.000Z",
+      "date": "2021-10-19T19:00:00.000Z",
+      "iso": "2021-10-19T19:00:00.000Z",
       "short": "19.10.2021",
-      "long": "19. Oktober 2021"
+      "long": "19. Oktober 2021",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_sebastian_krumbiegel/",
     "guests": [
@@ -1333,10 +1682,11 @@
     "title": "Popsalon Spezial: Buchpremiere Tobi Müller \"Play Pause Repeat\"",
     "number": null,
     "date": {
-      "date": "2021-09-26T20:00:00.000Z",
-      "iso": "2021-09-26T20:00:00.000Z",
+      "date": "2021-09-26T19:00:00.000Z",
+      "iso": "2021-09-26T19:00:00.000Z",
       "short": "26.9.2021",
-      "long": "26. September 2021"
+      "long": "26. September 2021",
+      "day": "Sonntag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon-spezial-play-pause-repeat/",
     "guests": [],
@@ -1347,10 +1697,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2020-12-20T21:00:00.000Z",
-      "iso": "2020-12-20T21:00:00.000Z",
+      "date": "2020-12-20T20:00:00.000Z",
+      "iso": "2020-12-20T20:00:00.000Z",
       "short": "20.12.2020",
-      "long": "20. Dezember 2020"
+      "long": "20. Dezember 2020",
+      "day": "Sonntag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_baghernejad_borcholte/",
     "guests": [
@@ -1364,10 +1715,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2020-10-25T21:00:00.000Z",
-      "iso": "2020-10-25T21:00:00.000Z",
+      "date": "2020-10-25T20:00:00.000Z",
+      "iso": "2020-10-25T20:00:00.000Z",
       "short": "25.10.2020",
-      "long": "25. Oktober 2020"
+      "long": "25. Oktober 2020",
+      "day": "Sonntag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon_gayle_tufts/4863/",
     "guests": [
@@ -1380,10 +1732,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2020-04-14T20:00:00.000Z",
-      "iso": "2020-04-14T20:00:00.000Z",
+      "date": "2020-04-14T19:00:00.000Z",
+      "iso": "2020-04-14T19:00:00.000Z",
       "short": "14.4.2020",
-      "long": "14. April 2020"
+      "long": "14. April 2020",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-monica-bonvicini/4646/",
     "guests": [
@@ -1396,10 +1749,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2020-03-03T21:00:00.000Z",
-      "iso": "2020-03-03T21:00:00.000Z",
+      "date": "2020-03-03T20:00:00.000Z",
+      "iso": "2020-03-03T20:00:00.000Z",
       "short": "3.3.2020",
-      "long": "3. März 2020"
+      "long": "3. März 2020",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon-thomas-melle/",
     "guests": [
@@ -1412,10 +1766,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2020-01-22T21:00:00.000Z",
-      "iso": "2020-01-22T21:00:00.000Z",
+      "date": "2020-01-22T20:00:00.000Z",
+      "iso": "2020-01-22T20:00:00.000Z",
       "short": "22.1.2020",
-      "long": "22. Januar 2020"
+      "long": "22. Januar 2020",
+      "day": "Mittwoch"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon-joerg-heiser-julia-lorenz/4438/",
     "guests": [
@@ -1510,10 +1865,11 @@
     "title": "Popsalon meets Müllersalon",
     "number": null,
     "date": {
-      "date": "2019-12-11T21:00:00.000Z",
-      "iso": "2019-12-11T21:00:00.000Z",
+      "date": "2019-12-11T20:00:00.000Z",
+      "iso": "2019-12-11T20:00:00.000Z",
       "short": "11.12.2019",
-      "long": "11. Dezember 2019"
+      "long": "11. Dezember 2019",
+      "day": "Mittwoch"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_meets_muellersalon_masha_qrella/",
     "guests": [
@@ -1598,10 +1954,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2019-11-12T21:00:00.000Z",
-      "iso": "2019-11-12T21:00:00.000Z",
+      "date": "2019-11-12T20:00:00.000Z",
+      "iso": "2019-11-12T20:00:00.000Z",
       "short": "12.11.2019",
-      "long": "12. November 2019"
+      "long": "12. November 2019",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon-lippok-binas-preisendoerfer-lippok/",
     "guests": [
@@ -1697,10 +2054,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2019-10-22T20:00:00.000Z",
-      "iso": "2019-10-22T20:00:00.000Z",
+      "date": "2019-10-22T19:00:00.000Z",
+      "iso": "2019-10-22T19:00:00.000Z",
       "short": "22.10.2019",
-      "long": "22. Oktober 2019"
+      "long": "22. Oktober 2019",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_fanizadeh_lorenz/",
     "guests": [
@@ -1799,10 +2157,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2019-06-18T20:00:00.000Z",
-      "iso": "2019-06-18T20:00:00.000Z",
+      "date": "2019-06-18T19:00:00.000Z",
+      "iso": "2019-06-18T19:00:00.000Z",
       "short": "18.6.2019",
-      "long": "18. Juni 2019"
+      "long": "18. Juni 2019",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_albig/",
     "guests": [
@@ -1815,10 +2174,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2019-05-07T20:00:00.000Z",
-      "iso": "2019-05-07T20:00:00.000Z",
+      "date": "2019-05-07T19:00:00.000Z",
+      "iso": "2019-05-07T19:00:00.000Z",
       "short": "7.5.2019",
-      "long": "7. Mai 2019"
+      "long": "7. Mai 2019",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_sascha_ring/",
     "guests": [
@@ -1831,10 +2191,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2019-04-02T20:00:00.000Z",
-      "iso": "2019-04-02T20:00:00.000Z",
+      "date": "2019-04-02T19:00:00.000Z",
+      "iso": "2019-04-02T19:00:00.000Z",
       "short": "2.4.2019",
-      "long": "2. April 2019"
+      "long": "2. April 2019",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon_britta_thie_laura_ewert/3721/",
     "guests": [
@@ -1848,10 +2209,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2019-03-12T21:00:00.000Z",
-      "iso": "2019-03-12T21:00:00.000Z",
+      "date": "2019-03-12T20:00:00.000Z",
+      "iso": "2019-03-12T20:00:00.000Z",
       "short": "12.3.2019",
-      "long": "12. März 2019"
+      "long": "12. März 2019",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_friebe_morgenstern_summen/",
     "guests": [
@@ -1866,10 +2228,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2019-02-19T21:00:00.000Z",
-      "iso": "2019-02-19T21:00:00.000Z",
+      "date": "2019-02-19T20:00:00.000Z",
+      "iso": "2019-02-19T20:00:00.000Z",
       "short": "19.2.2019",
-      "long": "19. Februar 2019"
+      "long": "19. Februar 2019",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_efdemin/",
     "guests": [
@@ -1895,10 +2258,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2019-01-15T21:00:00.000Z",
-      "iso": "2019-01-15T21:00:00.000Z",
+      "date": "2019-01-15T20:00:00.000Z",
+      "iso": "2019-01-15T20:00:00.000Z",
       "short": "15.1.2019",
-      "long": "15. Januar 2019"
+      "long": "15. Januar 2019",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon_deventer_mueller/3426/",
     "guests": [
@@ -1912,10 +2276,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2018-12-18T21:00:00.000Z",
-      "iso": "2018-12-18T21:00:00.000Z",
+      "date": "2018-12-18T20:00:00.000Z",
+      "iso": "2018-12-18T20:00:00.000Z",
       "short": "18.12.2018",
-      "long": "18. Dezember 2018"
+      "long": "18. Dezember 2018",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_dachsel_usta/",
     "guests": [
@@ -1929,10 +2294,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2018-11-06T21:00:00.000Z",
-      "iso": "2018-11-06T21:00:00.000Z",
+      "date": "2018-11-06T20:00:00.000Z",
+      "iso": "2018-11-06T20:00:00.000Z",
       "short": "6.11.2018",
-      "long": "6. November 2018"
+      "long": "6. November 2018",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon_kennedy_reents/3224/",
     "guests": [
@@ -1946,10 +2312,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2018-10-02T20:00:00.000Z",
-      "iso": "2018-10-02T20:00:00.000Z",
+      "date": "2018-10-02T19:00:00.000Z",
+      "iso": "2018-10-02T19:00:00.000Z",
       "short": "2.10.2018",
-      "long": "2. Oktober 2018"
+      "long": "2. Oktober 2018",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon_westbam/3105/",
     "guests": [
@@ -1962,10 +2329,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2018-06-26T20:00:00.000Z",
-      "iso": "2018-06-26T20:00:00.000Z",
+      "date": "2018-06-26T19:00:00.000Z",
+      "iso": "2018-06-26T19:00:00.000Z",
       "short": "26.6.2018",
-      "long": "26. Juni 2018"
+      "long": "26. Juni 2018",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_friese_scheffel_borcholte/",
     "guests": [
@@ -1980,10 +2348,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2018-05-15T20:00:00.000Z",
-      "iso": "2018-05-15T20:00:00.000Z",
+      "date": "2018-05-15T19:00:00.000Z",
+      "iso": "2018-05-15T19:00:00.000Z",
       "short": "15.5.2018",
-      "long": "15. Mai 2018"
+      "long": "15. Mai 2018",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_trittin/",
     "guests": [
@@ -1996,10 +2365,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2018-04-03T20:00:00.000Z",
-      "iso": "2018-04-03T20:00:00.000Z",
+      "date": "2018-04-03T19:00:00.000Z",
+      "iso": "2018-04-03T19:00:00.000Z",
       "short": "3.4.2018",
-      "long": "3. April 2018"
+      "long": "3. April 2018",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon_electric_indigo/2706/",
     "guests": [
@@ -2013,10 +2383,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2018-03-06T21:00:00.000Z",
-      "iso": "2018-03-06T21:00:00.000Z",
+      "date": "2018-03-06T20:00:00.000Z",
+      "iso": "2018-03-06T20:00:00.000Z",
       "short": "6.3.2018",
-      "long": "6. März 2018"
+      "long": "6. März 2018",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_farin_wiedemann/",
     "guests": [
@@ -2030,10 +2401,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2018-02-20T21:00:00.000Z",
-      "iso": "2018-02-20T21:00:00.000Z",
+      "date": "2018-02-20T20:00:00.000Z",
+      "iso": "2018-02-20T20:00:00.000Z",
       "short": "20.2.2018",
-      "long": "20. Februar 2018"
+      "long": "20. Februar 2018",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_mueller_hossbach/",
     "guests": [
@@ -2047,10 +2419,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2018-01-08T21:00:00.000Z",
-      "iso": "2018-01-08T21:00:00.000Z",
+      "date": "2018-01-08T20:00:00.000Z",
+      "iso": "2018-01-08T20:00:00.000Z",
       "short": "8.1.2018",
-      "long": "8. Januar 2018"
+      "long": "8. Januar 2018",
+      "day": "Montag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_roesinger_miess/",
     "guests": [
@@ -2064,10 +2437,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2017-12-19T21:00:00.000Z",
-      "iso": "2017-12-19T21:00:00.000Z",
+      "date": "2017-12-19T20:00:00.000Z",
+      "iso": "2017-12-19T20:00:00.000Z",
       "short": "19.12.2017",
-      "long": "19. Dezember 2017"
+      "long": "19. Dezember 2017",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_hiersemann/",
     "guests": [
@@ -2082,10 +2456,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2017-11-14T21:00:00.000Z",
-      "iso": "2017-11-14T21:00:00.000Z",
+      "date": "2017-11-14T20:00:00.000Z",
+      "iso": "2017-11-14T20:00:00.000Z",
       "short": "14.11.2017",
-      "long": "14. November 2017"
+      "long": "14. November 2017",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_florian_schroeder/",
     "guests": [
@@ -2159,10 +2534,11 @@
     "title": "Popsalon trifft Fußballsalon",
     "number": null,
     "date": {
-      "date": "2017-10-10T20:00:00.000Z",
-      "iso": "2017-10-10T20:00:00.000Z",
+      "date": "2017-10-10T19:00:00.000Z",
+      "iso": "2017-10-10T19:00:00.000Z",
       "short": "10.10.2017",
-      "long": "10. Oktober 2017"
+      "long": "10. Oktober 2017",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_trifft_fussballsalon/",
     "guests": [
@@ -2175,10 +2551,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2017-06-13T20:00:00.000Z",
-      "iso": "2017-06-13T20:00:00.000Z",
+      "date": "2017-06-13T19:00:00.000Z",
+      "iso": "2017-06-13T19:00:00.000Z",
       "short": "13.6.2017",
-      "long": "13. Juni 2017"
+      "long": "13. Juni 2017",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_pilarczyk_fiedler/",
     "guests": [
@@ -2192,10 +2569,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2017-05-02T20:00:00.000Z",
-      "iso": "2017-05-02T20:00:00.000Z",
+      "date": "2017-05-02T19:00:00.000Z",
+      "iso": "2017-05-02T19:00:00.000Z",
       "short": "2.5.2017",
-      "long": "2. Mai 2017"
+      "long": "2. Mai 2017",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon_romuald_karmakar/1820/",
     "guests": [
@@ -2208,10 +2586,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2017-04-18T20:00:00.000Z",
-      "iso": "2017-04-18T20:00:00.000Z",
+      "date": "2017-04-18T19:00:00.000Z",
+      "iso": "2017-04-18T19:00:00.000Z",
       "short": "18.4.2017",
-      "long": "18. April 2017"
+      "long": "18. April 2017",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_renner_eismann/",
     "guests": [
@@ -2225,10 +2604,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2017-03-28T20:00:00.000Z",
-      "iso": "2017-03-28T20:00:00.000Z",
+      "date": "2017-03-28T19:00:00.000Z",
+      "iso": "2017-03-28T19:00:00.000Z",
       "short": "28.3.2017",
-      "long": "28. März 2017"
+      "long": "28. März 2017",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon_anja_caspary/1692/",
     "guests": [
@@ -2242,10 +2622,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2017-02-07T21:00:00.000Z",
-      "iso": "2017-02-07T21:00:00.000Z",
+      "date": "2017-02-07T20:00:00.000Z",
+      "iso": "2017-02-07T20:00:00.000Z",
       "short": "7.2.2017",
-      "long": "7. Februar 2017"
+      "long": "7. Februar 2017",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon_polak_beauvais/1554/",
     "guests": [
@@ -2259,10 +2640,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2016-12-13T21:00:00.000Z",
-      "iso": "2016-12-13T21:00:00.000Z",
+      "date": "2016-12-13T20:00:00.000Z",
+      "iso": "2016-12-13T20:00:00.000Z",
       "short": "13.12.2016",
-      "long": "13. Dezember 2016"
+      "long": "13. Dezember 2016",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_kullmann_ruether/",
     "guests": [
@@ -2276,10 +2658,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2016-11-15T21:00:00.000Z",
-      "iso": "2016-11-15T21:00:00.000Z",
+      "date": "2016-11-15T20:00:00.000Z",
+      "iso": "2016-11-15T20:00:00.000Z",
       "short": "15.11.2016",
-      "long": "15. November 2016"
+      "long": "15. November 2016",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon_hermanns_nieswandt/1307/",
     "guests": [
@@ -2293,10 +2676,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2016-10-12T20:00:00.000Z",
-      "iso": "2016-10-12T20:00:00.000Z",
+      "date": "2016-10-12T19:00:00.000Z",
+      "iso": "2016-10-12T19:00:00.000Z",
       "short": "12.10.2016",
-      "long": "12. Oktober 2016"
+      "long": "12. Oktober 2016",
+      "day": "Mittwoch"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_sherpe_kedves/",
     "guests": [
@@ -2310,10 +2694,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2016-05-03T20:00:00.000Z",
-      "iso": "2016-05-03T20:00:00.000Z",
+      "date": "2016-05-03T19:00:00.000Z",
+      "iso": "2016-05-03T19:00:00.000Z",
       "short": "3.5.2016",
-      "long": "3. Mai 2016"
+      "long": "3. Mai 2016",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon_schwilden_aydemir/951/",
     "guests": [
@@ -2327,10 +2712,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2016-04-12T20:00:00.000Z",
-      "iso": "2016-04-12T20:00:00.000Z",
+      "date": "2016-04-12T19:00:00.000Z",
+      "iso": "2016-04-12T19:00:00.000Z",
       "short": "12.4.2016",
-      "long": "12. April 2016"
+      "long": "12. April 2016",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/popsalon_romano_lange/790/",
     "guests": [
@@ -2344,10 +2730,11 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2016-03-15T21:00:00.000Z",
-      "iso": "2016-03-15T21:00:00.000Z",
+      "date": "2016-03-15T20:00:00.000Z",
+      "iso": "2016-03-15T20:00:00.000Z",
       "short": "15.3.2016",
-      "long": "15. März 2016"
+      "long": "15. März 2016",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_tufts/",
     "guests": [
@@ -2361,10 +2748,11 @@
     "title": null,
     "number": 3,
     "date": {
-      "date": "2016-01-12T21:00:00.000Z",
-      "iso": "2016-01-12T21:00:00.000Z",
+      "date": "2016-01-12T20:00:00.000Z",
+      "iso": "2016-01-12T20:00:00.000Z",
       "short": "12.1.2016",
-      "long": "12. Januar 2016"
+      "long": "12. Januar 2016",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/spielplan/posalon_jankowski_weihser/521/",
     "guests": [
@@ -2391,10 +2779,11 @@
     "title": "",
     "number": 2,
     "date": {
-      "date": "2015-11-10T21:00:00.000Z",
-      "iso": "2015-11-10T21:00:00.000Z",
+      "date": "2015-11-10T20:00:00.000Z",
+      "iso": "2015-11-10T20:00:00.000Z",
       "short": "10.11.2015",
-      "long": "10. November 2015"
+      "long": "10. November 2015",
+      "day": "Dienstag"
     },
     "url": "https://www.deutschestheater.de/programm/a-z/popsalon_balbina/",
     "guests": [
