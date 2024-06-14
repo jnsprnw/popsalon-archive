@@ -15,7 +15,6 @@
     <main role="list">
       {#each data.events as post}
         <article
-          role="listitem"
           id={post.id}
           class="mt-16 mb-6 border-b-4 border-black bg-white py-6 pb-16 md:px-6"
           itemprop="event"
@@ -49,61 +48,59 @@
             <span class="text-sm">{post.date.day}</span>
           </div>
           {#if post.guests.length || post.videos.length}
-            <main>
-              <dl>
-                {#if post.guests.length}
-                  <dd class="mt-6 mb-4 border-t-2 border-t-black pt-1 text-sm text-gray-800">
-                    {#if post.guests.length === 1}Gast{:else}Gäste{/if}
-                  </dd>
-                  <dt>
-                    <ul>
-                      {#each post.guests as guest}
-                        <li
-                          class="mb-3 border-b border-b-gray-200 pb-3 text-lg font-semibold leading-6 last:border-b-0"
-                          itemprop="attendee"
-                        >
-                          {guest}
-                        </li>
-                      {/each}
-                    </ul>
-                  </dt>
-                {/if}
-                {#if post.videos.length}
-                  <dd class="mt-6 mb-4 border-t-2 border-t-black pt-1 text-sm text-gray-800">
-                    Videos
-                  </dd>
-                  <dt>
-                    <ul>
-                      {#each post.videos as { artist, title, year, rip, played, person, url }}
-                        <li
-                          class:line-through={!played}
-                          class="mb-3 border-b border-b-gray-200 pb-3 last:border-b-0"
-                          itemprop="track"
-                          itemscope
-                          itemtype="https://schema.org/MusicRecording"
-                        >
-                          <div class="flex items-start justify-between">
-                            <ConditionalLink {url}>
-                              <span itemprop="byArtist">{artist}</span
-                              >{#if title}&emsp14;–&emsp14;<span itemprop="name">{title}</span>{/if}
-                            </ConditionalLink>
-                            <div class="flex items-center gap-x-2">
-                              {#if year}<span class="ml-2 text-xs" itemprop=" copyrightYear"
-                                  >{year}</span
-                                >{/if}
-                              {#if rip}<span class="py-0.5 text-xs">RIP</span>{/if}
-                            </div>
+            <dl>
+              {#if post.guests.length}
+                <dd class="mt-6 mb-4 border-t-2 border-t-black pt-1 text-sm text-gray-800">
+                  {#if post.guests.length === 1}Gast{:else}Gäste{/if}
+                </dd>
+                <dt>
+                  <ul>
+                    {#each post.guests as guest}
+                      <li
+                        class="mb-3 border-b border-b-gray-200 pb-3 text-lg font-semibold leading-6 last:border-b-0"
+                        itemprop="attendee"
+                      >
+                        {guest}
+                      </li>
+                    {/each}
+                  </ul>
+                </dt>
+              {/if}
+              {#if post.videos.length}
+                <dd class="mt-6 mb-4 border-t-2 border-t-black pt-1 text-sm text-gray-800">
+                  Videos
+                </dd>
+                <dt>
+                  <ul>
+                    {#each post.videos as { artist, title, year, rip, played, person, url }}
+                      <li
+                        class:line-through={!played}
+                        class="mb-3 border-b border-b-gray-200 pb-3 last:border-b-0"
+                        itemprop="track"
+                        itemscope
+                        itemtype="https://schema.org/MusicRecording"
+                      >
+                        <div class="flex items-start justify-between">
+                          <ConditionalLink {url}>
+                            <span itemprop="byArtist">{artist}</span
+                            >{#if title}&emsp14;–&emsp14;<span itemprop="name">{title}</span>{/if}
+                          </ConditionalLink>
+                          <div class="flex items-center gap-x-2">
+                            {#if year}<span class="ml-2 text-xs" itemprop=" copyrightYear"
+                                >{year}</span
+                              >{/if}
+                            {#if rip}<span class="py-0.5 text-xs">RIP</span>{/if}
                           </div>
-                          {#if person}
-                            <div class="mt-0.5 text-sm text-gray-500">{person}</div>
-                          {/if}
-                        </li>
-                      {/each}
-                    </ul>
-                  </dt>
-                {/if}
-              </dl>
-            </main>
+                        </div>
+                        {#if person}
+                          <span class="mt-0.5 text-sm text-gray-500">{person}</span>
+                        {/if}
+                      </li>
+                    {/each}
+                  </ul>
+                </dt>
+              {/if}
+            </dl>
           {/if}
         </article>
       {/each}
