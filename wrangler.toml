@@ -1,5 +1,4 @@
 name = "popsalon-archive"
-pages_build_output_dir="/.svelte-kit/cloudflare"
 
 [vars]
 BUN_VERSION = "1.1.20"
