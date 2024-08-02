@@ -4,30 +4,126 @@
     "title": null,
     "number": 60,
     "date": {
-      "date": "2024-06-10T19:00:00.000Z",
-      "iso": "2024-06-10T19:00:00.000Z",
+      "date": "2024-06-10T20:00:00.000Z",
+      "iso": "2024-06-10T20:00:00.000Z",
       "short": "10.6.2024",
       "long": "10. Juni 2024",
       "day": "Montag"
     },
     "url": "https://www.deutschestheater.de/programm/produktionen/popsalon-juni-2024",
     "guests": [
-      "Fatma Aydemir (Autorin von Doktormutter Faust)"
+      "Claudia Gerth (radioeins Deutschlandfunk Kultur)",
+      "Andreas Borcholte (Der Spiegel)"
     ],
-    "videos": []
+    "videos": [
+      {
+        "id": "49f3bb14-478b-413f-b985-38f7281124a8",
+        "artist": "James Blake",
+        "title": "Thrown Around",
+        "year": 2024,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Claudia Gerth"
+        ],
+        "url": "https://www.youtube.com/watch?v=Z_YoF_Dp7k0"
+      },
+      {
+        "id": "70f9b045-75b3-46a0-ac59-a83e798b938f",
+        "artist": "Jamie XX",
+        "title": "Treat Each Other Right",
+        "year": 2024,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Andreas Borcholte"
+        ],
+        "url": "https://www.youtube.com/watch?v=4zTFuKsJqxA"
+      },
+      {
+        "id": "8e2e3726-5f20-4845-ac85-87ac2827ef30",
+        "artist": "Beth Gibbons",
+        "title": "Floating On A Moment",
+        "year": 2024,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Jens Balzer"
+        ],
+        "url": "https://www.youtube.com/watch?v=ldrx0eSqV-E"
+      },
+      {
+        "id": "5798ee77-f19a-469c-9a06-b1f4217de7d2",
+        "artist": "Zaho de Sagazan",
+        "title": "Aspiration",
+        "year": 2024,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ],
+        "url": "https://www.youtube.com/watch?v=t7o0yCOCSBU"
+      },
+      {
+        "id": "9058e252-ddfa-41c2-b299-5c28b152fe34",
+        "artist": "Sorry3000",
+        "title": "Entschuldigung",
+        "year": 2023,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Claudia Gerth"
+        ],
+        "url": "https://www.youtube.com/watch?v=dSzr6BRmU-E"
+      },
+      {
+        "id": "15745e48-cc30-4fe1-b33c-ec78f205b3b7",
+        "artist": "Noga Erez (ft. Rousso)",
+        "title": "PC People",
+        "year": 2024,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Andreas Borcholte"
+        ],
+        "url": "https://www.youtube.com/watch?v=K2630OFpX4c"
+      },
+      {
+        "id": "4b1f6db8-51fc-4b56-9446-ad32de62a74c",
+        "artist": "Justice",
+        "title": "Generator",
+        "year": 2024,
+        "rip": false,
+        "played": true,
+        "person": [
+          "Tobi Müller"
+        ],
+        "url": "https://www.youtube.com/watch?v=MZTg2WMb8Ps"
+      },
+      {
+        "id": "1835c823-422a-4c4a-84fd-ecdcd27b10d0",
+        "artist": "Iceboy Violet & Nueen",
+        "title": "Fragmentary",
+        "year": 2024,
+        "rip": false,
+        "played": false,
+        "person": [],
+        "url": "https://www.youtube.com/watch?v=bdWZNgAywWI"
+      }
+    ]
   },
   {
     "id": "ff061308-ce3f-4ca2-afeb-e1a81f36c562",
     "title": null,
     "number": 59,
     "date": {
-      "date": "2024-05-02T19:00:00.000Z",
-      "iso": "2024-05-02T19:00:00.000Z",
+      "date": "2024-05-02T20:00:00.000Z",
+      "iso": "2024-05-02T20:00:00.000Z",
       "short": "2.5.2024",
       "long": "2. Mai 2024",
       "day": "Donnerstag"
     },
-    "url": null,
+    "url": "https://www.deutschestheater.de/programm/produktionen/popsalon-mai-2024",
     "guests": [
       "Diedrich Diederichsen"
     ],
@@ -133,8 +229,8 @@
     "title": null,
     "number": 58,
     "date": {
-      "date": "2024-03-04T20:00:00.000Z",
-      "iso": "2024-03-04T20:00:00.000Z",
+      "date": "2024-03-04T21:00:00.000Z",
+      "iso": "2024-03-04T21:00:00.000Z",
       "short": "4.3.2024",
       "long": "4. März 2024",
       "day": "Montag"
@@ -248,8 +344,8 @@
     "title": null,
     "number": 57,
     "date": {
-      "date": "2024-01-24T20:00:00.000Z",
-      "iso": "2024-01-24T20:00:00.000Z",
+      "date": "2024-01-24T21:00:00.000Z",
+      "iso": "2024-01-24T21:00:00.000Z",
       "short": "24.1.2024",
       "long": "24. Januar 2024",
       "day": "Mittwoch"
@@ -350,8 +446,8 @@
     "title": null,
     "number": 56,
     "date": {
-      "date": "2023-12-11T20:00:00.000Z",
-      "iso": "2023-12-11T20:00:00.000Z",
+      "date": "2023-12-11T21:00:00.000Z",
+      "iso": "2023-12-11T21:00:00.000Z",
       "short": "11.12.2023",
       "long": "11. Dezember 2023",
       "day": "Montag"
@@ -453,8 +549,8 @@
     "title": null,
     "number": 55,
     "date": {
-      "date": "2023-10-04T19:00:00.000Z",
-      "iso": "2023-10-04T19:00:00.000Z",
+      "date": "2023-10-04T20:00:00.000Z",
+      "iso": "2023-10-04T20:00:00.000Z",
       "short": "4.10.2023",
       "long": "4. Oktober 2023",
       "day": "Mittwoch"
@@ -567,8 +663,8 @@
     "title": null,
     "number": 54,
     "date": {
-      "date": "2023-06-07T19:00:00.000Z",
-      "iso": "2023-06-07T19:00:00.000Z",
+      "date": "2023-06-07T20:00:00.000Z",
+      "iso": "2023-06-07T20:00:00.000Z",
       "short": "7.6.2023",
       "long": "7. Juni 2023",
       "day": "Mittwoch"
@@ -669,8 +765,8 @@
     "title": null,
     "number": 53,
     "date": {
-      "date": "2023-05-19T19:00:00.000Z",
-      "iso": "2023-05-19T19:00:00.000Z",
+      "date": "2023-05-19T20:00:00.000Z",
+      "iso": "2023-05-19T20:00:00.000Z",
       "short": "19.5.2023",
       "long": "19. Mai 2023",
       "day": "Freitag"
@@ -783,8 +879,8 @@
     "title": null,
     "number": 52,
     "date": {
-      "date": "2023-04-20T19:00:00.000Z",
-      "iso": "2023-04-20T19:00:00.000Z",
+      "date": "2023-04-20T20:00:00.000Z",
+      "iso": "2023-04-20T20:00:00.000Z",
       "short": "20.4.2023",
       "long": "20. April 2023",
       "day": "Donnerstag"
@@ -896,8 +992,8 @@
     "title": null,
     "number": 51,
     "date": {
-      "date": "2023-03-21T20:00:00.000Z",
-      "iso": "2023-03-21T20:00:00.000Z",
+      "date": "2023-03-21T21:00:00.000Z",
+      "iso": "2023-03-21T21:00:00.000Z",
       "short": "21.3.2023",
       "long": "21. März 2023",
       "day": "Dienstag"
@@ -1010,8 +1106,8 @@
     "title": null,
     "number": 50,
     "date": {
-      "date": "2023-02-22T20:00:00.000Z",
-      "iso": "2023-02-22T20:00:00.000Z",
+      "date": "2023-02-22T21:00:00.000Z",
+      "iso": "2023-02-22T21:00:00.000Z",
       "short": "22.2.2023",
       "long": "22. Februar 2023",
       "day": "Mittwoch"
@@ -1113,8 +1209,8 @@
     "title": null,
     "number": 49,
     "date": {
-      "date": "2023-01-17T20:00:00.000Z",
-      "iso": "2023-01-17T20:00:00.000Z",
+      "date": "2023-01-17T21:00:00.000Z",
+      "iso": "2023-01-17T21:00:00.000Z",
       "short": "17.1.2023",
       "long": "17. Januar 2023",
       "day": "Dienstag"
@@ -1213,8 +1309,8 @@
     "title": null,
     "number": 48,
     "date": {
-      "date": "2022-12-14T20:00:00.000Z",
-      "iso": "2022-12-14T20:00:00.000Z",
+      "date": "2022-12-14T21:00:00.000Z",
+      "iso": "2022-12-14T21:00:00.000Z",
       "short": "14.12.2022",
       "long": "14. Dezember 2022",
       "day": "Mittwoch"
@@ -1341,8 +1437,8 @@
     "title": null,
     "number": 47,
     "date": {
-      "date": "2022-11-15T20:00:00.000Z",
-      "iso": "2022-11-15T20:00:00.000Z",
+      "date": "2022-11-15T21:00:00.000Z",
+      "iso": "2022-11-15T21:00:00.000Z",
       "short": "15.11.2022",
       "long": "15. November 2022",
       "day": "Dienstag"
@@ -1439,8 +1535,8 @@
     "title": null,
     "number": 46,
     "date": {
-      "date": "2022-10-11T19:00:00.000Z",
-      "iso": "2022-10-11T19:00:00.000Z",
+      "date": "2022-10-11T20:00:00.000Z",
+      "iso": "2022-10-11T20:00:00.000Z",
       "short": "11.10.2022",
       "long": "11. Oktober 2022",
       "day": "Dienstag"
@@ -1457,8 +1553,8 @@
     "title": null,
     "number": 45,
     "date": {
-      "date": "2022-09-27T19:00:00.000Z",
-      "iso": "2022-09-27T19:00:00.000Z",
+      "date": "2022-09-27T20:00:00.000Z",
+      "iso": "2022-09-27T20:00:00.000Z",
       "short": "27.9.2022",
       "long": "27. September 2022",
       "day": "Dienstag"
@@ -1474,8 +1570,8 @@
     "title": null,
     "number": 44,
     "date": {
-      "date": "2022-06-21T19:00:00.000Z",
-      "iso": "2022-06-21T19:00:00.000Z",
+      "date": "2022-06-21T20:00:00.000Z",
+      "iso": "2022-06-21T20:00:00.000Z",
       "short": "21.6.2022",
       "long": "21. Juni 2022",
       "day": "Dienstag"
@@ -1492,8 +1588,8 @@
     "title": "Popsalon Spezial: Buchpremiere Jens Balzer \"Schmalz und Rebellion”",
     "number": 43,
     "date": {
-      "date": "2022-05-17T19:00:00.000Z",
-      "iso": "2022-05-17T19:00:00.000Z",
+      "date": "2022-05-17T20:00:00.000Z",
+      "iso": "2022-05-17T20:00:00.000Z",
       "short": "17.5.2022",
       "long": "17. Mai 2022",
       "day": "Dienstag"
@@ -1507,8 +1603,8 @@
     "title": null,
     "number": 42,
     "date": {
-      "date": "2022-04-27T19:00:00.000Z",
-      "iso": "2022-04-27T19:00:00.000Z",
+      "date": "2022-04-27T20:00:00.000Z",
+      "iso": "2022-04-27T20:00:00.000Z",
       "short": "27.4.2022",
       "long": "27. April 2022",
       "day": "Mittwoch"
@@ -1525,8 +1621,8 @@
     "title": null,
     "number": 41,
     "date": {
-      "date": "2022-03-01T20:00:00.000Z",
-      "iso": "2022-03-01T20:00:00.000Z",
+      "date": "2022-03-01T21:00:00.000Z",
+      "iso": "2022-03-01T21:00:00.000Z",
       "short": "1.3.2022",
       "long": "1. März 2022",
       "day": "Dienstag"
@@ -1628,8 +1724,8 @@
     "title": null,
     "number": 40,
     "date": {
-      "date": "2022-01-11T20:00:00.000Z",
-      "iso": "2022-01-11T20:00:00.000Z",
+      "date": "2022-01-11T21:00:00.000Z",
+      "iso": "2022-01-11T21:00:00.000Z",
       "short": "11.1.2022",
       "long": "11. Januar 2022",
       "day": "Dienstag"
@@ -1646,8 +1742,8 @@
     "title": "Zehn Jahre Popsalon",
     "number": 39,
     "date": {
-      "date": "2021-12-21T20:00:00.000Z",
-      "iso": "2021-12-21T20:00:00.000Z",
+      "date": "2021-12-21T21:00:00.000Z",
+      "iso": "2021-12-21T21:00:00.000Z",
       "short": "21.12.2021",
       "long": "21. Dezember 2021",
       "day": "Dienstag"
@@ -1665,8 +1761,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2021-10-19T19:00:00.000Z",
-      "iso": "2021-10-19T19:00:00.000Z",
+      "date": "2021-10-19T20:00:00.000Z",
+      "iso": "2021-10-19T20:00:00.000Z",
       "short": "19.10.2021",
       "long": "19. Oktober 2021",
       "day": "Dienstag"
@@ -1682,8 +1778,8 @@
     "title": "Popsalon Spezial: Buchpremiere Tobi Müller \"Play Pause Repeat\"",
     "number": null,
     "date": {
-      "date": "2021-09-26T19:00:00.000Z",
-      "iso": "2021-09-26T19:00:00.000Z",
+      "date": "2021-09-26T20:00:00.000Z",
+      "iso": "2021-09-26T20:00:00.000Z",
       "short": "26.9.2021",
       "long": "26. September 2021",
       "day": "Sonntag"
@@ -1697,8 +1793,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2020-12-20T20:00:00.000Z",
-      "iso": "2020-12-20T20:00:00.000Z",
+      "date": "2020-12-20T21:00:00.000Z",
+      "iso": "2020-12-20T21:00:00.000Z",
       "short": "20.12.2020",
       "long": "20. Dezember 2020",
       "day": "Sonntag"
@@ -1715,8 +1811,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2020-10-25T20:00:00.000Z",
-      "iso": "2020-10-25T20:00:00.000Z",
+      "date": "2020-10-25T21:00:00.000Z",
+      "iso": "2020-10-25T21:00:00.000Z",
       "short": "25.10.2020",
       "long": "25. Oktober 2020",
       "day": "Sonntag"
@@ -1732,8 +1828,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2020-04-14T19:00:00.000Z",
-      "iso": "2020-04-14T19:00:00.000Z",
+      "date": "2020-04-14T20:00:00.000Z",
+      "iso": "2020-04-14T20:00:00.000Z",
       "short": "14.4.2020",
       "long": "14. April 2020",
       "day": "Dienstag"
@@ -1749,8 +1845,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2020-03-03T20:00:00.000Z",
-      "iso": "2020-03-03T20:00:00.000Z",
+      "date": "2020-03-03T21:00:00.000Z",
+      "iso": "2020-03-03T21:00:00.000Z",
       "short": "3.3.2020",
       "long": "3. März 2020",
       "day": "Dienstag"
@@ -1766,8 +1862,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2020-01-22T20:00:00.000Z",
-      "iso": "2020-01-22T20:00:00.000Z",
+      "date": "2020-01-22T21:00:00.000Z",
+      "iso": "2020-01-22T21:00:00.000Z",
       "short": "22.1.2020",
       "long": "22. Januar 2020",
       "day": "Mittwoch"
@@ -1865,8 +1961,8 @@
     "title": "Popsalon meets Müllersalon",
     "number": null,
     "date": {
-      "date": "2019-12-11T20:00:00.000Z",
-      "iso": "2019-12-11T20:00:00.000Z",
+      "date": "2019-12-11T21:00:00.000Z",
+      "iso": "2019-12-11T21:00:00.000Z",
       "short": "11.12.2019",
       "long": "11. Dezember 2019",
       "day": "Mittwoch"
@@ -1954,8 +2050,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2019-11-12T20:00:00.000Z",
-      "iso": "2019-11-12T20:00:00.000Z",
+      "date": "2019-11-12T21:00:00.000Z",
+      "iso": "2019-11-12T21:00:00.000Z",
       "short": "12.11.2019",
       "long": "12. November 2019",
       "day": "Dienstag"
@@ -2054,8 +2150,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2019-10-22T19:00:00.000Z",
-      "iso": "2019-10-22T19:00:00.000Z",
+      "date": "2019-10-22T20:00:00.000Z",
+      "iso": "2019-10-22T20:00:00.000Z",
       "short": "22.10.2019",
       "long": "22. Oktober 2019",
       "day": "Dienstag"
@@ -2157,8 +2253,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2019-06-18T19:00:00.000Z",
-      "iso": "2019-06-18T19:00:00.000Z",
+      "date": "2019-06-18T20:00:00.000Z",
+      "iso": "2019-06-18T20:00:00.000Z",
       "short": "18.6.2019",
       "long": "18. Juni 2019",
       "day": "Dienstag"
@@ -2174,8 +2270,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2019-05-07T19:00:00.000Z",
-      "iso": "2019-05-07T19:00:00.000Z",
+      "date": "2019-05-07T20:00:00.000Z",
+      "iso": "2019-05-07T20:00:00.000Z",
       "short": "7.5.2019",
       "long": "7. Mai 2019",
       "day": "Dienstag"
@@ -2191,8 +2287,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2019-04-02T19:00:00.000Z",
-      "iso": "2019-04-02T19:00:00.000Z",
+      "date": "2019-04-02T20:00:00.000Z",
+      "iso": "2019-04-02T20:00:00.000Z",
       "short": "2.4.2019",
       "long": "2. April 2019",
       "day": "Dienstag"
@@ -2209,8 +2305,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2019-03-12T20:00:00.000Z",
-      "iso": "2019-03-12T20:00:00.000Z",
+      "date": "2019-03-12T21:00:00.000Z",
+      "iso": "2019-03-12T21:00:00.000Z",
       "short": "12.3.2019",
       "long": "12. März 2019",
       "day": "Dienstag"
@@ -2228,8 +2324,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2019-02-19T20:00:00.000Z",
-      "iso": "2019-02-19T20:00:00.000Z",
+      "date": "2019-02-19T21:00:00.000Z",
+      "iso": "2019-02-19T21:00:00.000Z",
       "short": "19.2.2019",
       "long": "19. Februar 2019",
       "day": "Dienstag"
@@ -2258,8 +2354,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2019-01-15T20:00:00.000Z",
-      "iso": "2019-01-15T20:00:00.000Z",
+      "date": "2019-01-15T21:00:00.000Z",
+      "iso": "2019-01-15T21:00:00.000Z",
       "short": "15.1.2019",
       "long": "15. Januar 2019",
       "day": "Dienstag"
@@ -2276,8 +2372,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2018-12-18T20:00:00.000Z",
-      "iso": "2018-12-18T20:00:00.000Z",
+      "date": "2018-12-18T21:00:00.000Z",
+      "iso": "2018-12-18T21:00:00.000Z",
       "short": "18.12.2018",
       "long": "18. Dezember 2018",
       "day": "Dienstag"
@@ -2294,8 +2390,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2018-11-06T20:00:00.000Z",
-      "iso": "2018-11-06T20:00:00.000Z",
+      "date": "2018-11-06T21:00:00.000Z",
+      "iso": "2018-11-06T21:00:00.000Z",
       "short": "6.11.2018",
       "long": "6. November 2018",
       "day": "Dienstag"
@@ -2312,8 +2408,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2018-10-02T19:00:00.000Z",
-      "iso": "2018-10-02T19:00:00.000Z",
+      "date": "2018-10-02T20:00:00.000Z",
+      "iso": "2018-10-02T20:00:00.000Z",
       "short": "2.10.2018",
       "long": "2. Oktober 2018",
       "day": "Dienstag"
@@ -2329,8 +2425,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2018-06-26T19:00:00.000Z",
-      "iso": "2018-06-26T19:00:00.000Z",
+      "date": "2018-06-26T20:00:00.000Z",
+      "iso": "2018-06-26T20:00:00.000Z",
       "short": "26.6.2018",
       "long": "26. Juni 2018",
       "day": "Dienstag"
@@ -2348,8 +2444,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2018-05-15T19:00:00.000Z",
-      "iso": "2018-05-15T19:00:00.000Z",
+      "date": "2018-05-15T20:00:00.000Z",
+      "iso": "2018-05-15T20:00:00.000Z",
       "short": "15.5.2018",
       "long": "15. Mai 2018",
       "day": "Dienstag"
@@ -2365,8 +2461,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2018-04-03T19:00:00.000Z",
-      "iso": "2018-04-03T19:00:00.000Z",
+      "date": "2018-04-03T20:00:00.000Z",
+      "iso": "2018-04-03T20:00:00.000Z",
       "short": "3.4.2018",
       "long": "3. April 2018",
       "day": "Dienstag"
@@ -2383,8 +2479,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2018-03-06T20:00:00.000Z",
-      "iso": "2018-03-06T20:00:00.000Z",
+      "date": "2018-03-06T21:00:00.000Z",
+      "iso": "2018-03-06T21:00:00.000Z",
       "short": "6.3.2018",
       "long": "6. März 2018",
       "day": "Dienstag"
@@ -2401,8 +2497,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2018-02-20T20:00:00.000Z",
-      "iso": "2018-02-20T20:00:00.000Z",
+      "date": "2018-02-20T21:00:00.000Z",
+      "iso": "2018-02-20T21:00:00.000Z",
       "short": "20.2.2018",
       "long": "20. Februar 2018",
       "day": "Dienstag"
@@ -2419,8 +2515,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2018-01-08T20:00:00.000Z",
-      "iso": "2018-01-08T20:00:00.000Z",
+      "date": "2018-01-08T21:00:00.000Z",
+      "iso": "2018-01-08T21:00:00.000Z",
       "short": "8.1.2018",
       "long": "8. Januar 2018",
       "day": "Montag"
@@ -2437,8 +2533,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2017-12-19T20:00:00.000Z",
-      "iso": "2017-12-19T20:00:00.000Z",
+      "date": "2017-12-19T21:00:00.000Z",
+      "iso": "2017-12-19T21:00:00.000Z",
       "short": "19.12.2017",
       "long": "19. Dezember 2017",
       "day": "Dienstag"
@@ -2456,8 +2552,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2017-11-14T20:00:00.000Z",
-      "iso": "2017-11-14T20:00:00.000Z",
+      "date": "2017-11-14T21:00:00.000Z",
+      "iso": "2017-11-14T21:00:00.000Z",
       "short": "14.11.2017",
       "long": "14. November 2017",
       "day": "Dienstag"
@@ -2534,8 +2630,8 @@
     "title": "Popsalon trifft Fußballsalon",
     "number": null,
     "date": {
-      "date": "2017-10-10T19:00:00.000Z",
-      "iso": "2017-10-10T19:00:00.000Z",
+      "date": "2017-10-10T20:00:00.000Z",
+      "iso": "2017-10-10T20:00:00.000Z",
       "short": "10.10.2017",
       "long": "10. Oktober 2017",
       "day": "Dienstag"
@@ -2551,8 +2647,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2017-06-13T19:00:00.000Z",
-      "iso": "2017-06-13T19:00:00.000Z",
+      "date": "2017-06-13T20:00:00.000Z",
+      "iso": "2017-06-13T20:00:00.000Z",
       "short": "13.6.2017",
       "long": "13. Juni 2017",
       "day": "Dienstag"
@@ -2569,8 +2665,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2017-05-02T19:00:00.000Z",
-      "iso": "2017-05-02T19:00:00.000Z",
+      "date": "2017-05-02T20:00:00.000Z",
+      "iso": "2017-05-02T20:00:00.000Z",
       "short": "2.5.2017",
       "long": "2. Mai 2017",
       "day": "Dienstag"
@@ -2586,8 +2682,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2017-04-18T19:00:00.000Z",
-      "iso": "2017-04-18T19:00:00.000Z",
+      "date": "2017-04-18T20:00:00.000Z",
+      "iso": "2017-04-18T20:00:00.000Z",
       "short": "18.4.2017",
       "long": "18. April 2017",
       "day": "Dienstag"
@@ -2604,8 +2700,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2017-03-28T19:00:00.000Z",
-      "iso": "2017-03-28T19:00:00.000Z",
+      "date": "2017-03-28T20:00:00.000Z",
+      "iso": "2017-03-28T20:00:00.000Z",
       "short": "28.3.2017",
       "long": "28. März 2017",
       "day": "Dienstag"
@@ -2622,8 +2718,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2017-02-07T20:00:00.000Z",
-      "iso": "2017-02-07T20:00:00.000Z",
+      "date": "2017-02-07T21:00:00.000Z",
+      "iso": "2017-02-07T21:00:00.000Z",
       "short": "7.2.2017",
       "long": "7. Februar 2017",
       "day": "Dienstag"
@@ -2640,8 +2736,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2016-12-13T20:00:00.000Z",
-      "iso": "2016-12-13T20:00:00.000Z",
+      "date": "2016-12-13T21:00:00.000Z",
+      "iso": "2016-12-13T21:00:00.000Z",
       "short": "13.12.2016",
       "long": "13. Dezember 2016",
       "day": "Dienstag"
@@ -2658,8 +2754,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2016-11-15T20:00:00.000Z",
-      "iso": "2016-11-15T20:00:00.000Z",
+      "date": "2016-11-15T21:00:00.000Z",
+      "iso": "2016-11-15T21:00:00.000Z",
       "short": "15.11.2016",
       "long": "15. November 2016",
       "day": "Dienstag"
@@ -2676,8 +2772,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2016-10-12T19:00:00.000Z",
-      "iso": "2016-10-12T19:00:00.000Z",
+      "date": "2016-10-12T20:00:00.000Z",
+      "iso": "2016-10-12T20:00:00.000Z",
       "short": "12.10.2016",
       "long": "12. Oktober 2016",
       "day": "Mittwoch"
@@ -2694,8 +2790,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2016-05-03T19:00:00.000Z",
-      "iso": "2016-05-03T19:00:00.000Z",
+      "date": "2016-05-03T20:00:00.000Z",
+      "iso": "2016-05-03T20:00:00.000Z",
       "short": "3.5.2016",
       "long": "3. Mai 2016",
       "day": "Dienstag"
@@ -2712,8 +2808,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2016-04-12T19:00:00.000Z",
-      "iso": "2016-04-12T19:00:00.000Z",
+      "date": "2016-04-12T20:00:00.000Z",
+      "iso": "2016-04-12T20:00:00.000Z",
       "short": "12.4.2016",
       "long": "12. April 2016",
       "day": "Dienstag"
@@ -2730,8 +2826,8 @@
     "title": "",
     "number": null,
     "date": {
-      "date": "2016-03-15T20:00:00.000Z",
-      "iso": "2016-03-15T20:00:00.000Z",
+      "date": "2016-03-15T21:00:00.000Z",
+      "iso": "2016-03-15T21:00:00.000Z",
       "short": "15.3.2016",
       "long": "15. März 2016",
       "day": "Dienstag"
@@ -2748,8 +2844,8 @@
     "title": null,
     "number": 3,
     "date": {
-      "date": "2016-01-12T20:00:00.000Z",
-      "iso": "2016-01-12T20:00:00.000Z",
+      "date": "2016-01-12T21:00:00.000Z",
+      "iso": "2016-01-12T21:00:00.000Z",
       "short": "12.1.2016",
       "long": "12. Januar 2016",
       "day": "Dienstag"
@@ -2779,8 +2875,8 @@
     "title": "",
     "number": 2,
     "date": {
-      "date": "2015-11-10T20:00:00.000Z",
-      "iso": "2015-11-10T20:00:00.000Z",
+      "date": "2015-11-10T21:00:00.000Z",
+      "iso": "2015-11-10T21:00:00.000Z",
       "short": "10.11.2015",
       "long": "10. November 2015",
       "day": "Dienstag"
