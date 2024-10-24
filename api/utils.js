@@ -80,6 +80,9 @@ export async function formatEvents(arr) {
     const props = post.properties;
     const name = props['Name'].title.map(({ plain_text }) => plain_text).join('');
     const number = props.Number.number;
+    if (!props.datum?.date) {
+      continue;
+    }
     const date = new Date(new Date(props.Datum.date.start).setHours(22));
     const url = props.URL.url;
     const guests = props['Gäste'].multi_select.map(({ name }) => name);
