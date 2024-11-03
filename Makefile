@@ -1,10 +1,10 @@
 fetch:
-	node api/api.js
+	bun api/api.ts
 
 dev:
 	make fetch
-	npm run dev
+	bun run dev
 
 production:
 	make fetch
-	npm run build
+	bun run build

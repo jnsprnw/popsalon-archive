@@ -1,5 +1,6 @@
 import * as dotenv from 'dotenv'; // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 import fetch from 'node-fetch';
+import { writeFile } from 'fs';
 
 dotenv.config();
 
@@ -46,7 +47,9 @@ export async function getEvents() {
   const events = [];
   do {
     const response = await fetchContent(DATABASE_EVENTS, start_cursor);
+    // console.log(response.results);
     const arr = await formatEvents(response.results);
+    // console.log({ arr });
     events.push(...arr);
     hasMore = response.has_more;
     start_cursor = response.results.at(-1).id;
@@ -68,19 +71,22 @@ async function getVideos() {
   return Object.fromEntries(videos);
 }
 
-export async function formatEvents(arr) {
-  console.log(`Events: ${arr.length}`);
+export async function formatEvents(events_raw) {
+  // console.log(`Events: ${events_raw.length}`);
   const videos = await getVideos();
-  console.log(`Videos: ${Object.keys(videos).length}`);
-
+  // console.log(`Videos: ${Object.keys(videos).length}`);
+  // writeJSON(events_raw, './events.json');
   let events = [];
-  for (let i = 0; i < arr.length; i++) {
-    const post = arr[i];
+  for (let i = 0; i < events_raw.length; i++) {
+    // console.log(`Processing event ${i}`);
+    const post = events_raw[i];
+    // console.log(post);
     const id = post.id;
     const props = post.properties;
     const name = props['Name'].title.map(({ plain_text }) => plain_text).join('');
     const number = props.Number.number;
-    if (!props.datum?.date) {
+    // console.log(props);
+    if (!props.Datum?.date) {
       continue;
     }
     const date = new Date(new Date(props.Datum.date.start).setHours(22));
@@ -103,7 +109,7 @@ export async function formatEvents(arr) {
       guests,
       videos: content,
     };
-
+    // console.log({ date });
     if (date) {
       events.push(item);
     }
@@ -144,4 +150,13 @@ export async function formatVideos(arr) {
   }
 
   return videos;
+}
+
+export function writeJSON(data, path: string) {
+  writeFile(path, JSON.stringify(data, false, 2), (err) => {
+    if (err) console.log(err);
+    else {
+      console.log(`${path} written.`);
+    }
+  });
 }
