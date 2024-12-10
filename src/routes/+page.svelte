@@ -12,7 +12,7 @@
     <h3 class="text-sm">Unvollständig und inoffiziell</h3>
   </header>
   {#if data.events.length}
-    <main role="list">
+    <main>
       {#each data.events as post}
         <article
           id={post.id}
