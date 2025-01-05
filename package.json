@@ -45,6 +45,8 @@
   },
   "type": "module",
   "dependencies": {
-    "lodash-es": "^4.17.21"
+    "ics": "^3.8.1",
+    "lodash-es": "^4.17.21",
+    "pocketbase": "^0.25.0"
   }
 }
