@@ -15,11 +15,12 @@ export const GET: RequestHandler = async () => {
     });
 
     const icsEvents = records.map((record: any) => {
-      const [date] = new Date(record.date).toISOString().split('T');
+      const [date, time] = new Date(record.date).toISOString().split('T');
       const [year, month, day] = date.split('-');
+      const [hour, minute] = time.split(':');
       return {
         title: 'Popsalon',
-        start: [year, month, day, 21, 0].map(Number),
+        start: [year, month, day, hour, minute].map(Number),
         duration: { hours: 2 },
         description: record.label,
         url: record.website,
