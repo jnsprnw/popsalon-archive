@@ -20,6 +20,7 @@ export const GET: RequestHandler = async () => {
       const [hour, minute] = time.split(':');
       return {
         title: 'Popsalon',
+        uid: `${year}-${month}-${day}`,
         start: [year, month, day, hour, minute].map(Number),
         duration: { hours: 2 },
         description: record.label,
