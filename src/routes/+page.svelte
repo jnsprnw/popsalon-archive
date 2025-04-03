@@ -101,12 +101,14 @@
     </main>
   {/if}
   <footer class="my-16 px-6">
-    <span
-      >Zuletzt aktualisiert {dateFormatter(new Date())} von
+    <span>
+      Zuletzt aktualisiert {dateFormatter(new Date())} von
       <a
         class="underline decoration-violet-300 hover:text-accent hover:decoration-violet-300"
-        href="https://jonasparnow.com">Jonas Parnow</a
-      ></span
-    >
+        href="https://jonasparnow.com"
+      >
+        Jonas Parnow
+      </a>
+    </span>
   </footer>
 </div>
