@@ -5,38 +5,34 @@
   export let data;
 </script>
 
-<div class="mx-auto max-w-3xl bg-white px-3 pt-20">
+<div class="mx-auto max-w-3xl px-3 pt-20">
   <header class="md:px-6">
     <h1 class="text-2xl font-semibold">Popsalon Archiv</h1>
     <h2 class="text-lg">Tobi Müller und Jens Balzer im Deutschen Theater, Berlin</h2>
     <h3 class="text-sm">Unvollständig und inoffiziell</h3>
   </header>
   {#if data.events.length}
-    <main>
+    <main class="flex flex-col gap-y-6">
       {#each data.events as post}
         <article
-          id={post.id}
-          class="mt-16 mb-6 border-b-4 border-black bg-white py-6 pb-16 md:px-6"
+          class="mt-16 border-b-4 pb-16 md:px-6"
           itemprop="event"
           itemscope
           itemtype="https://schema.org/Event"
         >
-          <header class="flex justify-between">
+          <header class="flex flex-wrap justify-between">
             <meta itemprop="name" content="Popsalon – Balzer und Müller laden ein" />
-            <meta itemprop="attendee" content="Jens Balzer" />
-            <meta itemprop="attendee" content="Tobi Müller" />
-            <meta itemprop="location" content="Deutsches Theater, Berlin" />
             <date
               class="text-3xl font-bold md:text-5xl"
               itemprop="startDate"
               datetime={post.date.iso}>{post.date.long}</date
             >
-            {#if post.title}<h1 class="my-2">{post.title}</h1>{/if}
             {#if post.number}
               <span class="text-md ml-3 font-semibold text-gray-800">
                 {post.number}
               </span>
             {/if}
+            {#if post.title}<h1 class="my-2 text-xl block w-full">{post.title}</h1>{/if}
           </header>
           <div class="flex items-center gap-x-6">
             {#if post.url}<a
@@ -44,7 +40,7 @@
                 href={post.url}
                 itemprop="url">Link zur Veranstaltung</a
               >{/if}
-            <span class="text-sm">Deutsches Theater, Berlin</span>
+            <span class="text-sm" itemprop="location">Deutsches Theater, Berlin</span>
             <span class="text-sm">{post.date.day}</span>
           </div>
           {#if post.guests.length || post.videos.length}
@@ -53,6 +49,8 @@
                 {#if post.guests.length === 1}Gast{:else}Gäste{/if}
               </span>
               <ul>
+                <meta itemprop="attendee" content="Jens Balzer" />
+                <meta itemprop="attendee" content="Tobi Müller" />
                 {#each post.guests as guest}
                   <li
                     class="mb-3 border-b border-b-gray-200 pb-3 text-lg font-semibold leading-6 last:border-b-0"
