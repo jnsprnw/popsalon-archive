@@ -1,10 +1,7 @@
 import { baseURL } from '$lib/config.js';
-import {
-  SitemapStream,
-  streamToPromise,
-} from 'sitemap';
+import { SitemapStream, streamToPromise } from 'sitemap';
 
-export async function GET({ params }) {
+export async function GET() {
   const sitemap = new SitemapStream({ hostname: baseURL });
   sitemap.write({ url: `/`, lastmod: new Date().toISOString() });
 
