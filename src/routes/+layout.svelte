@@ -1,6 +1,11 @@
-<script>
+<script lang="ts">
   import '$lib/styles/app.css';
   import { title, description, baseURL } from '$lib/config.js';
+  interface Props {
+    children?: import('svelte').Snippet;
+  }
+
+  let { children }: Props = $props();
 
   const updated_time = new Date();
 </script>
@@ -27,4 +32,4 @@
   <link rel="canonical" href={baseURL} />
 </svelte:head>
 
-<slot />
+{@render children?.()}

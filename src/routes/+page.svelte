@@ -1,8 +1,14 @@
 <script>
   import { dateFormatter } from '$lib/utils.js';
   import ConditionalLink from '$lib/ConditionalLink.svelte';
-  /** @type {import('./$types').PageData} */
-  export let data;
+  
+  /**
+   * @typedef {Object} Props
+   * @property {import('./$types').PageData} data
+   */
+
+  /** @type {Props} */
+  let { data } = $props();
 </script>
 
 <div class="mx-auto max-w-3xl px-3 pt-20">

@@ -1,5 +1,5 @@
-<script>
-  export let url;
+<script lang="ts">
+  let { url, children } = $props();
 </script>
 
 {#if url}
@@ -7,10 +7,10 @@
     href={url}
     class="text-lg font-semibold leading-6 underline decoration-violet-300 hover:text-accent hover:decoration-accent"
   >
-    <slot />
+    {@render children?.()}
   </a>
 {:else}
   <div class="text-lg font-semibold leading-6">
-    <slot />
+    {@render children?.()}
   </div>
 {/if}
