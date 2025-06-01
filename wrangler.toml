@@ -4,9 +4,6 @@ name = "popsalon-archive"
 command = "bun run build"
 cwd = "."
 
-[build.environment_variables]
-NODE_VERSION = "20"
-
 [env.production]
 name = "popsalon-archive"
 
