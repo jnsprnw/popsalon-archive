@@ -1,5 +1,5 @@
 <script lang="ts">
-  let { url, children } = $props();
+  const { url, children } = $props();
 </script>
 
 {#if url}

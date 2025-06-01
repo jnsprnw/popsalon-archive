@@ -1,9 +1,21 @@
+import events from '$events';
 import { baseURL } from '$lib/config.js';
 import { SitemapStream, streamToPromise } from 'sitemap';
 
 export async function GET() {
   const sitemap = new SitemapStream({ hostname: baseURL });
   sitemap.write({ url: `/`, lastmod: new Date().toISOString() });
+
+  for (const event of events) {
+    sitemap.write({
+      url: `/events/${event.number}`,
+      lastmod: event.date.iso,
+    });
+    sitemap.write({
+      url: `/events/${event.date.iso.split('T')[0]}`,
+      lastmod: event.date.iso,
+    });
+  }
 
   sitemap.end();
 

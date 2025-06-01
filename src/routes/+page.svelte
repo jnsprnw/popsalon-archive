@@ -1,118 +1,19 @@
 <script>
-  import { dateFormatter } from '$lib/utils.js';
-  import ConditionalLink from '$lib/ConditionalLink.svelte';
-  
+  import Event from '$lib/Event/Event.svelte';
+
   /**
    * @typedef {Object} Props
    * @property {import('./$types').PageData} data
    */
 
   /** @type {Props} */
-  let { data } = $props();
+  const { data } = $props();
 </script>
 
-<div class="mx-auto max-w-3xl px-3 pt-20">
-  <header class="md:px-6">
-    <h1 class="text-2xl font-semibold">Popsalon Archiv</h1>
-    <h2 class="text-lg">Tobi Müller und Jens Balzer im Deutschen Theater, Berlin</h2>
-    <h3 class="text-sm">Unvollständig und inoffiziell</h3>
-  </header>
-  {#if data.events.length}
-    <main class="flex flex-col gap-y-6">
-      {#each data.events as post}
-        <article
-          class="mt-16 border-b-4 pb-16 md:px-6"
-          itemprop="event"
-          itemscope
-          itemtype="https://schema.org/Event"
-        >
-          <header class="flex flex-wrap justify-between">
-            <meta itemprop="name" content="Popsalon – Balzer und Müller laden ein" />
-            <date
-              class="text-3xl font-bold md:text-5xl"
-              itemprop="startDate"
-              datetime={post.date.iso}>{post.date.long}</date
-            >
-            {#if post.number}
-              <span class="text-md ml-3 font-semibold text-gray-800">
-                {post.number}
-              </span>
-            {/if}
-            {#if post.title}<h1 class="my-2 text-xl block w-full">{post.title}</h1>{/if}
-          </header>
-          <div class="flex items-center gap-x-6">
-            {#if post.url}<a
-                class="mt-2 mb-1 inline-block text-sm underline decoration-violet-300 hover:text-accent hover:decoration-violet-300"
-                href={post.url}
-                itemprop="url">Link zur Veranstaltung</a
-              >{/if}
-            <span class="text-sm" itemprop="location">Deutsches Theater, Berlin</span>
-            <span class="text-sm">{post.date.day}</span>
-          </div>
-          {#if post.guests.length || post.videos.length}
-            {#if post.guests.length}
-              <span class="mt-6 block mb-4 border-t-2 border-t-black pt-1 text-sm text-gray-800">
-                {#if post.guests.length === 1}Gast{:else}Gäste{/if}
-              </span>
-              <ul>
-                <meta itemprop="attendee" content="Jens Balzer" />
-                <meta itemprop="attendee" content="Tobi Müller" />
-                {#each post.guests as guest}
-                  <li
-                    class="mb-3 border-b border-b-gray-200 pb-3 text-lg font-semibold leading-6 last:border-b-0"
-                    itemprop="attendee"
-                  >
-                    {guest}
-                  </li>
-                {/each}
-              </ul>
-            {/if}
-            {#if post.videos.length}
-              <span class="mt-6 block mb-4 border-t-2 border-t-black pt-1 text-sm text-gray-800">
-                Videos
-              </span>
-              <ul>
-                {#each post.videos as { artist, title, year, rip, played, person, url }}
-                  <li
-                    class:line-through={!played}
-                    class="mb-3 border-b border-b-gray-200 pb-3 last:border-b-0"
-                    itemprop="track"
-                    itemscope
-                    itemtype="https://schema.org/MusicRecording"
-                  >
-                    <div class="flex items-start justify-between">
-                      <ConditionalLink {url}>
-                        <span itemprop="byArtist">{artist}</span>{#if title}&emsp14;–&emsp14;<span
-                            itemprop="name">{title}</span
-                          >{/if}
-                      </ConditionalLink>
-                      <div class="flex items-center gap-x-2">
-                        {#if year}<span class="ml-2 text-xs" itemprop=" copyrightYear">{year}</span
-                          >{/if}
-                        {#if rip}<span class="py-0.5 text-xs">RIP</span>{/if}
-                      </div>
-                    </div>
-                    {#if person}
-                      <span class="mt-0.5 text-sm text-gray-500">{person}</span>
-                    {/if}
-                  </li>
-                {/each}
-              </ul>
-            {/if}
-          {/if}
-        </article>
-      {/each}
-    </main>
-  {/if}
-  <footer class="my-16 px-6">
-    <span>
-      Zuletzt aktualisiert {dateFormatter(new Date())} von
-      <a
-        class="underline decoration-violet-300 hover:text-accent hover:decoration-violet-300"
-        href="https://jonasparnow.com"
-      >
-        Jonas Parnow
-      </a>
-    </span>
-  </footer>
-</div>
+{#if data.events.length}
+  <main class="flex flex-col gap-y-6">
+    {#each data.events as event}
+      <Event {event} />
+    {/each}
+  </main>
+{/if}

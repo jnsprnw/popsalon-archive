@@ -1,13 +1,19 @@
 <script lang="ts">
   import '$lib/styles/app.css';
-  import { title, description, baseURL } from '$lib/config.js';
+  import { page } from '$app/state';
+  import { baseURL, description, title } from '$lib/config.js';
+  import { dateFormatter } from '$lib/utils.js';
+  import type { Snippet } from 'svelte';
+
   interface Props {
-    children?: import('svelte').Snippet;
+    children?: Snippet
   }
 
-  let { children }: Props = $props();
+  const { children }: Props = $props();
 
   const updated_time = new Date();
+
+  const canonical = $derived(page?.data?.canonical ?? baseURL)
 </script>
 
 <svelte:head>
@@ -29,7 +35,36 @@
   <meta itemprop="name" content={title} />
   <meta itemprop="description" content={description} />
 
-  <link rel="canonical" href={baseURL} />
+  <link rel="canonical" href={`/${canonical}`} />
+  {#if page?.data.nextEvent}
+    <link rel="next" href={`/${page?.data.nextEvent}`} />
+  {/if}
+  {#if page?.data.previousEvent}
+    <link rel="prev" href={`/${page?.data.previousEvent}`} />
+  {/if}
+  {#if page?.data.alternate}
+    <link rel="alternate" href={`/${page?.data.alternate}`} />
+  {/if}
 </svelte:head>
 
-{@render children?.()}
+<div class="mx-auto max-w-3xl px-3 pt-20">
+  <header class="md:px-6">
+    <h1 class="text-2xl font-semibold">Popsalon Archiv</h1>
+    <h2 class="text-lg">Tobi Müller und Jens Balzer im Deutschen Theater, Berlin</h2>
+    <h3 class="text-sm">Unvollständig und inoffiziell</h3>
+  </header>
+
+  {@render children?.()}
+
+  <footer class="my-16 px-6">
+    <span>
+      Zuletzt aktualisiert {dateFormatter(new Date())} von
+      <a
+        class="underline decoration-violet-300 hover:text-accent hover:decoration-violet-300"
+        href="https://jonasparnow.com"
+      >
+        Jonas Parnow
+      </a>
+    </span>
+  </footer>
+</div>
