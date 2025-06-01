@@ -1,6 +1,6 @@
+import { writeFile } from 'fs';
 import * as dotenv from 'dotenv'; // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 import fetch from 'node-fetch';
-import { writeFile } from 'fs';
 
 dotenv.config();
 
@@ -8,155 +8,155 @@ const DATABASE_EVENTS = process.env.VITE_NOTION_DATABASE_EVENTS;
 const DATABASE_VIDEOS = process.env.VITE_NOTION_DATABASE_VIDEOS;
 const bearer = process.env.VITE_NOTION_SECRET;
 
-async function fetchContent(id, start_cursor) {
-  const result = await fetch(`https://api.notion.com/v1/databases/${id}/query`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: 'Bearer ' + bearer,
-      'Notion-Version': '2021-08-16',
-    },
-    body: JSON.stringify({
-      page_size: 100,
-      start_cursor,
-    }),
-  });
+async function fetchContent(id: string, start_cursor: number | undefined) {
+	const result = await fetch(`https://api.notion.com/v1/databases/${id}/query`, {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/json',
+			Authorization: 'Bearer ' + bearer,
+			'Notion-Version': '2021-08-16'
+		},
+		body: JSON.stringify({
+			page_size: 100,
+			start_cursor
+		})
+	});
 
-  return await result.json();
+	return await result.json();
 }
 
 const dateFormatter = new Intl.DateTimeFormat('de-DE', {
-  year: 'numeric',
-  month: 'numeric',
-  day: 'numeric',
+	year: 'numeric',
+	month: 'numeric',
+	day: 'numeric'
 }).format;
 
 const dateFormatterLong = new Intl.DateTimeFormat('de-DE', {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
+	year: 'numeric',
+	month: 'long',
+	day: 'numeric'
 }).format;
 
 const dateDay = new Intl.DateTimeFormat('de-DE', {
-  weekday: 'long',
+	weekday: 'long'
 }).format;
 
 export async function getEvents() {
-  let hasMore = false;
-  let start_cursor = undefined;
-  const events = [];
-  do {
-    const response = await fetchContent(DATABASE_EVENTS, start_cursor);
-    // console.log(response.results);
-    const arr = await formatEvents(response.results);
-    // console.log({ arr });
-    events.push(...arr);
-    hasMore = response.has_more;
-    start_cursor = response.results.at(-1).id;
-  } while (hasMore);
-  return events;
+	let hasMore = false;
+	let start_cursor = undefined;
+	const events = [];
+	do {
+		const response = await fetchContent(DATABASE_EVENTS, start_cursor);
+		// console.log(response.results);
+		const arr = await formatEvents(response.results);
+		// console.log({ arr });
+		events.push(...arr);
+		hasMore = response.has_more;
+		start_cursor = response.results.at(-1).id;
+	} while (hasMore);
+	return events;
 }
 
 async function getVideos() {
-  let hasMore = false;
-  let start_cursor = undefined;
-  const videos = [];
-  do {
-    const response = await fetchContent(DATABASE_VIDEOS, start_cursor);
-    const arr = await formatVideos(response.results);
-    videos.push(...arr);
-    hasMore = response.has_more;
-    start_cursor = response.results.at(-1).id;
-  } while (hasMore);
-  return Object.fromEntries(videos);
+	let hasMore = false;
+	let start_cursor = undefined;
+	const videos = [];
+	do {
+		const response = await fetchContent(DATABASE_VIDEOS, start_cursor);
+		const arr = await formatVideos(response.results);
+		videos.push(...arr);
+		hasMore = response.has_more;
+		start_cursor = response.results.at(-1).id;
+	} while (hasMore);
+	return Object.fromEntries(videos);
 }
 
 export async function formatEvents(events_raw) {
-  // console.log(`Events: ${events_raw.length}`);
-  const videos = await getVideos();
-  // console.log(`Videos: ${Object.keys(videos).length}`);
-  // writeJSON(events_raw, './events.json');
-  let events = [];
-  for (let i = 0; i < events_raw.length; i++) {
-    // console.log(`Processing event ${i}`);
-    const post = events_raw[i];
-    // console.log(post);
-    const id = post.id;
-    const props = post.properties;
-    const name = props['Name'].title.map(({ plain_text }) => plain_text).join('');
-    const number = props.Number.number;
-    // console.log(props);
-    if (!props.Datum?.date) {
-      continue;
-    }
-    const date = new Date(new Date(props.Datum.date.start).setHours(22));
-    const url = props.URL.url;
-    const guests = props['Gäste'].multi_select.map(({ name }) => name);
-    const content = props['Videos'].relation.map(({ id }) => videos[id]).filter(Boolean);
+	// console.log(`Events: ${events_raw.length}`);
+	const videos = await getVideos();
+	// console.log(`Videos: ${Object.keys(videos).length}`);
+	// writeJSON(events_raw, './events.json');
+	let events = [];
+	for (let i = 0; i < events_raw.length; i++) {
+		// console.log(`Processing event ${i}`);
+		const post = events_raw[i];
+		// console.log(post);
+		const id = post.id;
+		const props = post.properties;
+		const name = props['Name'].title.map(({ plain_text }) => plain_text).join('');
+		const number = props.Number.number;
+		// console.log(props);
+		if (!props.Datum?.date) {
+			continue;
+		}
+		const date = new Date(new Date(props.Datum.date.start).setHours(22));
+		const url = props.URL.url;
+		const guests = props['Gäste'].multi_select.map(({ name }) => name);
+		const content = props['Videos'].relation.map(({ id }) => videos[id]).filter(Boolean);
 
-    const item = {
-      id,
-      title: name === String(number) ? null : name,
-      number,
-      date: {
-        date,
-        iso: date.toISOString(),
-        short: dateFormatter(date),
-        long: dateFormatterLong(date),
-        day: dateDay(date),
-      },
-      url,
-      guests,
-      videos: content,
-    };
-    // console.log({ date });
-    if (date) {
-      events.push(item);
-    }
-  }
+		const item = {
+			id,
+			title: name === String(number) ? null : name,
+			number,
+			date: {
+				date,
+				iso: date.toISOString(),
+				short: dateFormatter(date),
+				long: dateFormatterLong(date),
+				day: dateDay(date)
+			},
+			url,
+			guests,
+			videos: content
+		};
+		// console.log({ date });
+		if (date) {
+			events.push(item);
+		}
+	}
 
-  events = events.sort((a, b) => b.date.date - a.date.date);
+	events = events.sort((a, b) => b.date.date - a.date.date);
 
-  return events;
+	return events;
 }
 
 export async function formatVideos(arr) {
-  let videos = [];
+	const videos = [];
 
-  for (let i = 0; i < arr.length; i++) {
-    const video = arr[i];
-    const id = video.id;
-    const props = video.properties;
-    const artist = props['Künstler'].title.map(({ plain_text }) => plain_text).join('');
-    const title = props['Name'].rich_text.map(({ plain_text }) => plain_text).join('');
-    const year = props.Jahr.number;
-    const rip = props.Todesfall.checkbox;
-    const played = !props['Nicht gespielt'].checkbox;
-    const person = props['Person'].multi_select.map(({ name }) => name);
-    const url = props.URL.url;
+	for (let i = 0; i < arr.length; i++) {
+		const video = arr[i];
+		const id = video.id;
+		const props = video.properties;
+		const artist = props['Künstler'].title.map(({ plain_text }) => plain_text).join('');
+		const title = props['Name'].rich_text.map(({ plain_text }) => plain_text).join('');
+		const year = props.Jahr.number;
+		const rip = props.Todesfall.checkbox;
+		const played = !props['Nicht gespielt'].checkbox;
+		const person = props['Person'].multi_select.map(({ name }) => name);
+		const url = props.URL.url;
 
-    const item = {
-      id,
-      artist,
-      title,
-      year,
-      rip,
-      played,
-      person,
-      url,
-    };
+		const item = {
+			id,
+			artist,
+			title,
+			year,
+			rip,
+			played,
+			person,
+			url
+		};
 
-    videos.push([id, item]);
-  }
+		videos.push([id, item]);
+	}
 
-  return videos;
+	return videos;
 }
 
 export function writeJSON(data, path: string) {
-  writeFile(path, JSON.stringify(data, false, 2), (err) => {
-    if (err) console.log(err);
-    else {
-      console.log(`${path} written.`);
-    }
-  });
+	writeFile(path, JSON.stringify(data, null, 2), (err) => {
+		if (err) console.log(err);
+		else {
+			console.log(`${path} written.`);
+		}
+	});
 }
