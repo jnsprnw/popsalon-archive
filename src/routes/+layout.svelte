@@ -13,7 +13,7 @@
 
   const updated_time = new Date();
 
-  const canonical = $derived(page?.data?.canonical ?? baseURL)
+  const canonical = $derived(page?.data?.canonical ? `/${page?.data?.canonical}` : baseURL);
 </script>
 
 <svelte:head>
@@ -35,7 +35,7 @@
   <meta itemprop="name" content={title} />
   <meta itemprop="description" content={description} />
 
-  <link rel="canonical" href={`/${canonical}`} />
+  <link rel="canonical" href={canonical} />
   {#if page?.data.nextEvent}
     <link rel="next" href={`/${page?.data.nextEvent}`} />
   {/if}

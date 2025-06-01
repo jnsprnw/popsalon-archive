@@ -12,6 +12,7 @@ function getPostByEvent(slug: string) {
   if (dateRegex.test(slug)) {
     // Datumsformat YYYY-MM-DD wurde gefunden
     const index = events.findIndex((event) => {
+      if (typeof event.date.iso !== 'string') return false;
       // Beginnt die ISO-Datumszeichenfolge mit dem angegebenen Datum?
       return event.date.iso.startsWith(slug);
     });
@@ -63,17 +64,18 @@ export async function load({ params }) {
 /** @type {import('./$types').EntryGenerator} */
 export function entries() {
   // Generiere URLs für alle Events basierend auf der Event-Nummer und dem Datum
-  return events
-    .map((event) => ({
-      event: event.number.toString(),
-    }))
-    .concat(
-      events.map((event) => {
-        // Extrahiere YYYY-MM-DD aus dem ISO-Datum
-        const isoDate = event.date.iso.split('T')[0];
-        return { event: isoDate };
-      })
-    );
+  const urls = [];
+  for (const event of events) {
+    if (typeof event.number === 'number') {
+      urls.push({
+        event: String(event.number),
+      });
+    }
+    urls.push({
+      event: event.date.iso.split('T')[0],
+    });
+  }
+  return urls;
 }
 
 export const prerender = true;

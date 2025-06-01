@@ -7,12 +7,14 @@ export async function GET() {
   sitemap.write({ url: `/`, lastmod: new Date().toISOString() });
 
   for (const event of events) {
+    if (typeof event.number === 'number') {
+      sitemap.write({
+        url: `/event/${event.number}`,
+        lastmod: event.date.iso,
+      });
+    }
     sitemap.write({
-      url: `/events/${event.number}`,
-      lastmod: event.date.iso,
-    });
-    sitemap.write({
-      url: `/events/${event.date.iso.split('T')[0]}`,
+      url: `/event/${event.date.iso.split('T')[0]}`,
       lastmod: event.date.iso,
     });
   }
