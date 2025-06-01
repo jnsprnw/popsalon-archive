@@ -1,0 +1,15 @@
+[install]
+cache = true
+production = false
+optional = true
+dev = true
+
+[install.lockfile]
+save = true
+print = "yarn"
+
+[test]
+coverage = false
+
+[build]
+target = "node"

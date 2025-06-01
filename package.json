@@ -3,6 +3,9 @@
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",
+	"engines": {
+		"node": ">=20.0.0"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -11,8 +14,12 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
-		"lint": "prettier --check . && eslint ."
+		"lint": "prettier --check . && eslint .",
+		"bun:install": "bun install",
+		"bun:build": "bun run build",
+		"bun:dev": "bun run dev"
 	},
+	"packageManager": "bun@1.0.0",
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",
 		"@eslint/js": "^9.18.0",

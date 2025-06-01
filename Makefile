@@ -3,8 +3,8 @@ fetch:
 
 dev:
 	make fetch
-	npm run dev
+	bun run dev
 
 production:
 	make fetch
-	npm run build
+	bun run build

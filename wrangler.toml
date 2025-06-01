@@ -1,0 +1,14 @@
+name = "popsalon-archive"
+
+[build]
+command = "bun run build"
+cwd = "."
+
+[build.environment_variables]
+NODE_VERSION = "20"
+
+[env.production]
+name = "popsalon-archive"
+
+[env.production.build]
+command = "bun run build"

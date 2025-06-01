@@ -1,12 +1,6 @@
-import { writeFile } from 'fs';
-import * as dotenv from 'dotenv'; // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
-import fetch from 'node-fetch';
-
-dotenv.config();
-
-const DATABASE_EVENTS = process.env.VITE_NOTION_DATABASE_EVENTS;
-const DATABASE_VIDEOS = process.env.VITE_NOTION_DATABASE_VIDEOS;
-const bearer = process.env.VITE_NOTION_SECRET;
+const DATABASE_EVENTS = Bun.env.NOTION_DATABASE_EVENTS;
+const DATABASE_VIDEOS = Bun.env.NOTION_DATABASE_VIDEOS;
+const bearer = Bun.env.NOTION_SECRET;
 
 async function fetchContent(id: string, start_cursor: number | undefined) {
 	const result = await fetch(`https://api.notion.com/v1/databases/${id}/query`, {
@@ -153,7 +147,7 @@ export async function formatVideos(arr) {
 }
 
 export function writeJSON(data, path: string) {
-	writeFile(path, JSON.stringify(data, null, 2), (err) => {
+	Bun.write(path, JSON.stringify(data, null, 2), (err) => {
 		if (err) console.log(err);
 		else {
 			console.log(`${path} written.`);
