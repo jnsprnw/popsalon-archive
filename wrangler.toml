@@ -4,8 +4,12 @@ name = "popsalon-archive"
 command = "bun run build"
 cwd = "."
 
+
+
 [env.production]
 name = "popsalon-archive"
 
 [env.production.build]
 command = "bun run build"
+
+

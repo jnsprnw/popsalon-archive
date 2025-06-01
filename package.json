@@ -19,7 +19,7 @@
 		"bun:build": "bun run build",
 		"bun:dev": "bun run dev"
 	},
-	"packageManager": "bun@1.0.0",
+	"packageManager": "bun@1.2.15",
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",
 		"@eslint/js": "^9.18.0",
