@@ -6,5 +6,6 @@ dev:
 	bun run dev
 
 production:
+	bun install
 	make fetch
 	bun run build

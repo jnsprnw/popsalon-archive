@@ -1,15 +1,2 @@
 name = "popsalon-archive"
-
-[build]
-command = "bun run build"
-cwd = "."
-
-
-
-[env.production]
-name = "popsalon-archive"
-
-[env.production.build]
-command = "bun run build"
-
-
+pages_build_output_dir = ".svelte-kit/cloudflare"
