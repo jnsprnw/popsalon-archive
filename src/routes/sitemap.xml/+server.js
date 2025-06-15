@@ -9,12 +9,12 @@ export async function GET() {
 	for (const event of events) {
 		if (typeof event.number === 'number') {
 			sitemap.write({
-				url: `/event/${event.number}`,
+				url: `/${event.number}`,
 				lastmod: event.date.iso
 			});
 		}
 		sitemap.write({
-			url: `/event/${event.date.iso.split('T')[0]}`,
+			url: `/${event.date.iso.split('T')[0]}`,
 			lastmod: event.date.iso
 		});
 	}
